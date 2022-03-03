@@ -1,4 +1,4 @@
-version: "3"
+version: "3 "
 
 services:
   storage:
@@ -10,7 +10,7 @@ services:
     ports:
       - "8090:8090"
     depends_on:
-      - kafka
+      - deployment_kafka_1
   receiver:
     container_name: receiver
     build:
@@ -21,7 +21,7 @@ services:
       - "8080:8080"
     depends_on:
       - storage
-      - kafka
+      - deployment_kafka_1
   processing:
     container_name: processing
     build:
@@ -33,7 +33,7 @@ services:
       - "8100:8100"
     depends_on:
       - storage
-      - kafka
+      - deployment_kafka_1
   audit_log:
     container_name: audit_log
     build:
@@ -44,4 +44,4 @@ services:
       - "8110:8110"
     depends_on:
       - storage
-      - kafka
+      - deployment_kafka_1
