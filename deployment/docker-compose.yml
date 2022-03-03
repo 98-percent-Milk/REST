@@ -9,9 +9,9 @@ services:
       - target: 8090
         published: 8090
         protocol: tcp
-        mode: host
     depends_on:
       - kafka
+
   receiver:
     container_name: receiver
     image: receiver
@@ -20,7 +20,6 @@ services:
       - target: 8080
         published: 8080
         protocol: tcp
-        mode: host
     depends_on:
       - kafka
   processing:
@@ -30,6 +29,7 @@ services:
     hostname: processing
     depends_on:
       - storage
+
   audit_log:
     container_name: audit_log
     image: audit_log
@@ -38,7 +38,6 @@ services:
       - target: 8110
         published: 8110
         protocol: tcp
-        mode: host
     depends_on:
       - kafka
 
