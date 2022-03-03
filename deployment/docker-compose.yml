@@ -1,35 +1,33 @@
 version: "6.1"
+
 services:
   storage:
     container_name: storage
-    image: ../storage
+    image: ${pwd}/../storage
     hostname: storage
     ports:
       - "8090:8090"
-
   receiver:
     container_name: receiver
-    image: ../receiver
+    image: ${pwd}/../receiver
     hostname: receiver
     ports:
       - "8080:8080"
     depends_on:
       - storage
-
   processing:
     container_name: processing
-    image: ../processing
+    image: ${pwd}/../processing
     hostname: processing
     ports:
       - "8100:8100"
     depends_on:
       - storage
-
-  audit:
-    container_name: audit
-    image: ../audit_log
+  audit_log:
+    container_name: audit_log
+    image: ${pwd}/../audit_log
     hostname: audit
     ports:
-      - "8070:8070"
+      - "8110:8110"
     depends_on:
       - storage
