@@ -10,8 +10,7 @@ from json import dumps, loads
 from uuid import uuid1
 from os.path import join, realpath
 from pykafka import KafkaClient
-FILENAME = 'events.json'
-MAX_EVENTS = 10
+
 
 with open(join(realpath("config"), "app_conf.yml"), 'r') as f:
     app_config = yaml.safe_load(f.read())

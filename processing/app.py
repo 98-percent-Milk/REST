@@ -1,6 +1,4 @@
 from datetime import datetime
-from os import times_result
-from urllib import request
 import connexion
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -8,13 +6,13 @@ from base import Base
 from stats import Stats
 from apscheduler.schedulers.background import BackgroundScheduler
 from connexion import NoContent
-import swagger_ui_bundle
 import requests
 import yaml
 import logging
 import logging.config
 from uuid import uuid1
 from os.path import join, realpath
+from collections import Counter
 
 with open(join(realpath("config"), "app_conf.yml"), 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -50,10 +48,10 @@ def populate_stats():
     """ Periodically update stats """
     session = DB_SESSION()
     logger.info("Start Periodic Processing")
-    results = session.query(Stats).order_by(Stats.last_updated.desc())
+    results = session.query(Stats).order_by(Stats.last_updated.desc()).first()
     new_stats = {}
     try:
-        timestamp = str(results[0].last_updated)
+        timestamp = str(results.last_updated)
         logger.info(f"Last timestamp {timestamp}")
     except KeyError:
         print("KEY ERROR! Invalid key input")
@@ -67,7 +65,8 @@ def populate_stats():
     if resume_res.status_code != 200:
         logger.error("Invalid Resume Events Request!!!")
     else:
-        new_stats['num_employees'] = len(resume_res.json())
+        new_stats['num_employees'] = len(
+            resume_res.json()) + int(results.num_employees)
         logger.info(
             f"Resume request retrieved {len(resume_res.json())} events.")
 
@@ -78,47 +77,34 @@ def populate_stats():
         logger.error("Invalid Resume Events Request!!!")
     else:
         logger.info(f"Job request retrieved {len(job_res.json())} events.")
+
+    if len(resume_res.json()) != 0 and len(job_res.json()) != 0:
         logger.debug(f"Populate stats trace id: {uuid1()}")
-    calculate_statistics(resume_res, job_res, new_stats)
-    stats = Stats(new_stats['num_employees'],
-                  new_stats['popular_field'],
-                  new_stats['unpopular_field'],
-                  new_stats['desp_employer'],
-                  new_stats['least_desp_employer'],
-                  datetime.now().replace(microsecond=0))
-    logger.debug(f"Event Statistics: {new_stats}")
-    session.add(stats)
-    session.commit()
+        calculate_statistics(resume_res, job_res, new_stats)
+        stats = Stats(new_stats['num_employees'],
+                      new_stats['popular_field'],
+                      new_stats['unpopular_field'],
+                      new_stats['desp_employer'],
+                      new_stats['least_desp_employer'],
+                      datetime.now().replace(microsecond=0))
+        logger.debug(f"Event Statistics: {new_stats}")
+        session.add(stats)
+        session.commit()
+    else:
+        logger.info("No new events retrieved from GET requests.")
     session.close()
 
 
-def calculate_statistics(resumes, jobs, new_stats={}):
-    field, employer = {}, {}
-    if len(resumes.json()) != 0:
-        for resume in resumes.json():
-            try:
-                field[resume['field']] += 1
-            except KeyError:
-                field[resume['field']] = 1
-        for job in jobs.json():
-            try:
-                field[job['field']] += 1
-            except KeyError:
-                field[job['field']] = 1
-        new_stats['popular_field'] = max(field)
-        new_stats['unpopular_field'] = min(field)
-    else:
-        new_stats['popular_field'], new_stats['unpopular_field'] = 'Null', 'Null'
-    if len(jobs.json()) != 0:
-        for job in jobs.json():
-            try:
-                employer[job['employer']] += 1
-            except KeyError:
-                employer[job['employer']] = 1
-        new_stats['desp_employer'] = max(employer)
-        new_stats['least_desp_employer'] = min(employer)
-    else:
-        new_stats['desp_employer'], new_stats['least_desp_employer'] = "Null", 'Null'
+def calculate_statistics(res_res, job_res, new_stats={}):
+    resumes = Counter([x['field'] for x in res_res.json()])
+    jobs = Counter([x['field'] for x in job_res.json()])
+    total = resumes + jobs
+    new_stats['popular_field'] = max(total)
+    new_stats['unpopular_field'] = min(total)
+
+    jobs = Counter([x['employer'] for x in job_res.json()])
+    new_stats['desp_employer'] = max(jobs)
+    new_stats['least_desp_employer'] = min(jobs)
 
 
 def init_scheduler():

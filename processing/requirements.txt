@@ -1,0 +1,6 @@
+connexion==2.7.0 
+swagger-ui-bundle==0.0.8 
+APScheduler==3.9.1
+SQLAlchemy==1.3.22
+requests==2.25.1
+PyYAML

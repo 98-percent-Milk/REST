@@ -2,6 +2,7 @@ import connexion
 from connexion import NoContent
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from datetime import datetime
 from base import Base
 from employee_resume import EmployeeResume
 from job_description import JobDescription
@@ -77,9 +78,42 @@ def process_messages():
     return NoContent, 201
 
 
+# Storage system GET method_1
+def get_advertisement_description(timestamp):
+    """ Retrieve all the Job Description advertisement that are stored after certain timestamp"""
+    logger.info(f"Hostname: {hostname}, port: {port}")
+    session = DB_SESSION()
+    timestamp_datetime = datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S")
+    readings = session.query(JobDescription).filter(
+        JobDescription.date_created >= timestamp_datetime)
+    results_list = [reading.to_dict() for reading in readings]
+    session.close()
+
+    logger.info(
+        f"Query for Job advertisement description after {timestamp} returns {len(results_list)} results.")
+
+    return results_list, 200
+
+
+# Storage system GET method_2
+def get_emp_resume(timestamp):
+    """ Retrieve all the Employee Resume that are stored after certain timestamp """
+    logger.info(f"Hostname: {hostname}, port: {port}")
+    session = DB_SESSION()
+    timestamp_datetime = datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S")
+    readings = session.query(EmployeeResume).filter(
+        EmployeeResume.date_created >= timestamp_datetime)
+    results_list = [reading.to_dict() for reading in readings]
+    session.close()
+    logger.info(
+        f"Query for employee resume after {timestamp} returns {len(results_list)} results.")
+    return results_list, 200
+
+
 app = connexion.FlaskApp(__name__, specification_dir='')
-# app.add_api(join(realpath("config"), 'openapi.yaml'),
-#             strict_validation=True, validate_responses=True)
+app.add_api(join(realpath("config"), 'openapi.yaml'),
+            strict_validation=True, validate_responses=True)
+
 
 if __name__ == "__main__":
     t1 = Thread(target=process_messages)
