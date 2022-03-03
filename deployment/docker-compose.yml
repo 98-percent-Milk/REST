@@ -1,42 +1,99 @@
-version: "3"
+version: '3.3'
 
 services:
   storage:
     container_name: storage
     build:
-      context: ../
       dockerfile: ../storage
     hostname: storage
     ports:
-      - "8090:8090"
+      - target: 8090
+        published: 8090
+        protocol: tcp
+        mode: host
+    depends_on:
+      - kafka
   receiver:
     container_name: receiver
     build:
-      context: ../
       dockerfile: ../receiver
     hostname: receiver
     ports:
-      - "8080:8080"
+      - target: 8080
+        published: 8080
+        protocol: tcp
+        mode: host
     depends_on:
-      - storage
+      - kafka
   processing:
     container_name: processing
     build:
-      context: ../
       dockerfile: ../processing
       network: "host"
     hostname: processing
     ports:
-      - "8100:8100"
+      - target: 8100
+        published: 8100
+        protocol: tcp
+        mode: host
     depends_on:
       - storage
   audit_log:
     container_name: audit_log
     build:
-      context: ../
       dockerfile: ../audit_log
     hostname: audit
     ports:
-      - "8110:8110"
+      - target: 8110
+        published: 8110
+        protocol: tcp
+        mode: host
     depends_on:
-      - storage
+      - kafka
+
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181"
+    hostname: zookeeper
+  kafka:
+    image: wurstmeister/kafka
+    command: [ start-kafka.sh ]
+    ports:
+      - "9092:9092"
+    hostname: kafka
+    environment:
+      KAFKA_CREATE_TOPICS: "events:1:1" # topic:partition:replicas 
+      KAFKA_ADVERTISED_HOST_NAME: restapi.eastus2.cloudapp.azure.com # docker-machine ip 
+      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://restapi.eastus2.cloudapp.azure.com:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - "zookeeper"
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'events'
+      # So you don't have to use root, but you can if you like 
+      MYSQL_USER: 'user'
+      # You can use whatever password you like 
+      MYSQL_PASSWORD: 'password'
+      # Password for root access 
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      # <Port exposed> : < MySQL Port running inside container> 
+      - '3306:3306'
+    expose:
+      # Opens port 3306 on the container 
+      - '3306'
+      # Where our data will be persisted 
+    volumes:
+      - my-db:/var/lib/mysql
+# Names our volume 
+volumes:
+  my-db:

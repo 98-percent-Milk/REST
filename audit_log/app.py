@@ -93,4 +93,4 @@ app.add_api(join(realpath("config"), 'openapi.yaml'),
             strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
-    app.run(port=8070)
+    app.run(port=8110)
