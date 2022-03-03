@@ -1,5 +1,4 @@
-connexion==2.7.0 
-swagger-ui-bundle==0.0.8 
-requests==2.25.1 
+connexion==2.7.0
+swagger-ui-bundle==0.0.8
 pykafka==2.4.0
 PyYAML

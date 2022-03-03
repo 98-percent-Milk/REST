@@ -1,11 +1,11 @@
 from datetime import datetime
 import connexion
+from connexion import NoContent
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from base import Base
 from stats import Stats
 from apscheduler.schedulers.background import BackgroundScheduler
-from connexion import NoContent
 import requests
 import yaml
 import logging
