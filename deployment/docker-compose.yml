@@ -3,13 +3,17 @@ version: "6.1"
 services:
   storage:
     container_name: storage
-    image: ${pwd}/../storage
+    build:
+      context: ../
+      dockerfile: ./storage/Dockerfile
     hostname: storage
     ports:
       - "8090:8090"
   receiver:
     container_name: receiver
-    image: ${pwd}/../receiver
+    build:
+      context: ../
+      dockerfile: ./receiver/Dockerfile
     hostname: receiver
     ports:
       - "8080:8080"
@@ -17,7 +21,9 @@ services:
       - storage
   processing:
     container_name: processing
-    image: ${pwd}/../processing
+    build:
+      context: ../
+      dockerfile: ./processing/Dockerfile
     hostname: processing
     ports:
       - "8100:8100"
@@ -25,7 +31,9 @@ services:
       - storage
   audit_log:
     container_name: audit_log
-    image: ${pwd}/../audit_log
+    build:
+      context: ../
+      dockerfile: ./audit_log/Dockerfile
     hostname: audit
     ports:
       - "8110:8110"
