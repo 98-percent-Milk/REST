@@ -1,0 +1,400 @@
+2022-02-02 21:57:36,172 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 2fc0dbb6-84b6-11ec-9b98-002590870b87
+2022-02-02 21:57:36,242 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 2fbf7c3c-84b6-11ec-a4e6-002590870b87
+2022-02-02 21:57:36,391 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 2fe24c8f-84b6-11ec-b4ef-002590870b87
+2022-02-02 21:57:36,897 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 302f749a-84b6-11ec-a66a-002590870b87
+2022-02-02 21:57:37,392 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 307af3e8-84b6-11ec-846b-002590870b87
+2022-02-02 21:57:37,899 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 30c8729e-84b6-11ec-a373-002590870b87
+2022-02-02 21:57:38,226 - basicLogger - INFO - Returned event add_advertisement_description response 2fc0dbb6-84b6-11ec-9b98-002590870b87 with status 201
+2022-02-02 21:57:38,236 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 30fbbd64-84b6-11ec-ba03-002590870b87
+2022-02-02 21:57:38,299 - basicLogger - INFO - Returned event add_advertisement_description response 2fbf7c3c-84b6-11ec-a4e6-002590870b87 with status 201
+2022-02-02 21:57:38,303 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3106151d-84b6-11ec-8c35-002590870b87
+2022-02-02 21:57:38,392 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 31139816-84b6-11ec-a2b6-002590870b87
+2022-02-02 21:57:38,434 - basicLogger - INFO - Returned event add_advertisement_description response 2fe24c8f-84b6-11ec-b4ef-002590870b87 with status 201
+2022-02-02 21:57:38,444 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 311b8197-84b6-11ec-bae6-002590870b87
+2022-02-02 21:57:38,894 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 31602242-84b6-11ec-9938-002590870b87
+2022-02-02 21:57:38,962 - basicLogger - INFO - Returned event add_advertisement_description response 302f749a-84b6-11ec-a66a-002590870b87 with status 201
+2022-02-02 21:57:38,971 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 316be55c-84b6-11ec-b53b-002590870b87
+2022-02-02 21:57:39,397 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 31ace10d-84b6-11ec-8d50-002590870b87
+2022-02-02 21:57:39,457 - basicLogger - INFO - Returned event add_advertisement_description response 307af3e8-84b6-11ec-846b-002590870b87 with status 201
+2022-02-02 21:57:39,461 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 31b6a452-84b6-11ec-84a8-002590870b87
+2022-02-02 21:57:39,901 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 31f9c8e4-84b6-11ec-a8f2-002590870b87
+2022-02-02 21:57:39,963 - basicLogger - INFO - Returned event add_advertisement_description response 30c8729e-84b6-11ec-a373-002590870b87 with status 201
+2022-02-02 21:57:39,970 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 320429d0-84b6-11ec-b363-002590870b87
+2022-02-02 21:57:40,281 - basicLogger - INFO - Returned event emp_resume response 30fbbd64-84b6-11ec-ba03-002590870b87 with status 201
+2022-02-02 21:57:40,287 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3234bcce-84b6-11ec-9e80-002590870b87
+2022-02-02 21:57:40,351 - basicLogger - INFO - Returned event emp_resume response 3106151d-84b6-11ec-8c35-002590870b87 with status 201
+2022-02-02 21:57:40,355 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 323f1d18-84b6-11ec-96f1-002590870b87
+2022-02-02 21:57:40,452 - basicLogger - INFO - Returned event add_advertisement_description response 31139816-84b6-11ec-a2b6-002590870b87 with status 201
+2022-02-02 21:57:40,462 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 324f69c6-84b6-11ec-9b3e-002590870b87
+2022-02-02 21:57:40,491 - basicLogger - INFO - Returned event emp_resume response 311b8197-84b6-11ec-bae6-002590870b87 with status 201
+2022-02-02 21:57:40,496 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3254995e-84b6-11ec-a451-002590870b87
+2022-02-02 21:57:40,958 - basicLogger - INFO - Returned event add_advertisement_description response 31602242-84b6-11ec-9938-002590870b87 with status 201
+2022-02-02 21:57:40,974 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 329d873e-84b6-11ec-8ba4-002590870b87
+2022-02-02 21:57:41,025 - basicLogger - INFO - Returned event emp_resume response 316be55c-84b6-11ec-b53b-002590870b87 with status 201
+2022-02-02 21:57:41,034 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 32a6aed6-84b6-11ec-a33c-002590870b87
+2022-02-02 21:57:41,460 - basicLogger - INFO - Returned event add_advertisement_description response 31ace10d-84b6-11ec-8d50-002590870b87 with status 201
+2022-02-02 21:57:41,479 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 32ea94d2-84b6-11ec-9b55-002590870b87
+2022-02-02 21:57:41,511 - basicLogger - INFO - Returned event emp_resume response 31b6a452-84b6-11ec-84a8-002590870b87 with status 201
+2022-02-02 21:57:41,523 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 32f14ab6-84b6-11ec-b0c9-002590870b87
+2022-02-02 21:57:41,959 - basicLogger - INFO - Returned event add_advertisement_description response 31f9c8e4-84b6-11ec-a8f2-002590870b87 with status 201
+2022-02-02 21:57:41,982 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 33374b08-84b6-11ec-9d48-002590870b87
+2022-02-02 21:57:42,026 - basicLogger - INFO - Returned event emp_resume response 320429d0-84b6-11ec-b363-002590870b87 with status 201
+2022-02-02 21:57:42,036 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 333f979a-84b6-11ec-ac92-002590870b87
+2022-02-02 21:57:42,349 - basicLogger - INFO - Returned event add_advertisement_description response 3234bcce-84b6-11ec-9e80-002590870b87 with status 201
+2022-02-02 21:57:42,388 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 33754cd6-84b6-11ec-b5e5-002590870b87
+2022-02-02 21:57:42,429 - basicLogger - INFO - Returned event add_advertisement_description response 323f1d18-84b6-11ec-96f1-002590870b87 with status 201
+2022-02-02 21:57:42,434 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 337c51c3-84b6-11ec-9b81-002590870b87
+2022-02-02 21:57:42,501 - basicLogger - INFO - Returned event emp_resume response 324f69c6-84b6-11ec-9b3e-002590870b87 with status 201
+2022-02-02 21:57:42,505 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 338726f0-84b6-11ec-9312-002590870b87
+2022-02-02 21:57:42,533 - basicLogger - INFO - Returned event add_advertisement_description response 3254995e-84b6-11ec-a451-002590870b87 with status 201
+2022-02-02 21:57:42,538 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 338c3032-84b6-11ec-ae67-002590870b87
+2022-02-02 21:57:43,041 - basicLogger - INFO - Returned event emp_resume response 329d873e-84b6-11ec-8ba4-002590870b87 with status 201
+2022-02-02 21:57:43,051 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 33da8ce0-84b6-11ec-8a18-002590870b87
+2022-02-02 21:57:43,073 - basicLogger - INFO - Returned event add_advertisement_description response 32a6aed6-84b6-11ec-a33c-002590870b87 with status 201
+2022-02-02 21:57:43,079 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 33ded23a-84b6-11ec-b5c7-002590870b87
+2022-02-02 21:57:43,541 - basicLogger - INFO - Returned event emp_resume response 32ea94d2-84b6-11ec-9b55-002590870b87 with status 201
+2022-02-02 21:57:43,552 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3426ecd1-84b6-11ec-988e-002590870b87
+2022-02-02 21:57:43,575 - basicLogger - INFO - Returned event add_advertisement_description response 32f14ab6-84b6-11ec-b0c9-002590870b87 with status 201
+2022-02-02 21:57:43,582 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 342b8082-84b6-11ec-b1c4-002590870b87
+2022-02-02 21:57:44,029 - basicLogger - INFO - Returned event emp_resume response 33374b08-84b6-11ec-9d48-002590870b87 with status 201
+2022-02-02 21:57:44,040 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 347156c3-84b6-11ec-8f41-002590870b87
+2022-02-02 21:57:44,095 - basicLogger - INFO - Returned event add_advertisement_description response 333f979a-84b6-11ec-ac92-002590870b87 with status 201
+2022-02-02 21:57:44,106 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 347b69c7-84b6-11ec-9222-002590870b87
+2022-02-02 21:57:44,460 - basicLogger - INFO - Returned event emp_resume response 33754cd6-84b6-11ec-b5e5-002590870b87 with status 201
+2022-02-02 21:57:44,483 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 34b4f59b-84b6-11ec-82fe-002590870b87
+2022-02-02 21:57:44,489 - basicLogger - INFO - Returned event emp_resume response 337c51c3-84b6-11ec-9b81-002590870b87 with status 201
+2022-02-02 21:57:44,500 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 34b78dae-84b6-11ec-bf97-002590870b87
+2022-02-02 21:57:44,535 - basicLogger - INFO - Returned event add_advertisement_description response 338726f0-84b6-11ec-9312-002590870b87 with status 201
+2022-02-02 21:57:44,539 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 34bd97d9-84b6-11ec-a6f3-002590870b87
+2022-02-02 21:57:44,587 - basicLogger - INFO - Returned event emp_resume response 338c3032-84b6-11ec-ae67-002590870b87 with status 201
+2022-02-02 21:57:44,595 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 34c627e2-84b6-11ec-9e0b-002590870b87
+2022-02-02 21:57:45,143 - basicLogger - INFO - Returned event emp_resume response 33ded23a-84b6-11ec-b5c7-002590870b87 with status 201
+2022-02-02 21:57:45,150 - basicLogger - INFO - Returned event add_advertisement_description response 33da8ce0-84b6-11ec-8a18-002590870b87 with status 201
+2022-02-02 21:57:45,157 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 351bd06b-84b6-11ec-b2b3-002590870b87
+2022-02-02 21:57:45,167 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 351d5701-84b6-11ec-a04f-002590870b87
+2022-02-02 21:57:45,651 - basicLogger - INFO - Returned event add_advertisement_description response 3426ecd1-84b6-11ec-988e-002590870b87 with status 201
+2022-02-02 21:57:45,663 - basicLogger - INFO - Returned event emp_resume response 342b8082-84b6-11ec-b1c4-002590870b87 with status 201
+2022-02-02 21:57:45,674 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 356acbc1-84b6-11ec-bfe3-002590870b87
+2022-02-02 21:57:45,686 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 356ca055-84b6-11ec-8b7c-002590870b87
+2022-02-02 21:57:46,112 - basicLogger - INFO - Returned event add_advertisement_description response 347156c3-84b6-11ec-8f41-002590870b87 with status 201
+2022-02-02 21:57:46,118 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 35ae84de-84b6-11ec-96e2-002590870b87
+2022-02-02 21:57:46,158 - basicLogger - INFO - Returned event emp_resume response 347b69c7-84b6-11ec-9222-002590870b87 with status 201
+2022-02-02 21:57:46,164 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 35b58a10-84b6-11ec-b684-002590870b87
+2022-02-02 21:57:46,556 - basicLogger - INFO - Returned event add_advertisement_description response 34b4f59b-84b6-11ec-82fe-002590870b87 with status 201
+2022-02-02 21:57:46,577 - basicLogger - INFO - Returned event add_advertisement_description response 34b78dae-84b6-11ec-bf97-002590870b87 with status 201
+2022-02-02 21:57:46,581 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 35f5349e-84b6-11ec-b3d5-002590870b87
+2022-02-02 21:57:46,592 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 35f6bb59-84b6-11ec-9070-002590870b87
+2022-02-02 21:57:46,600 - basicLogger - INFO - Returned event emp_resume response 34bd97d9-84b6-11ec-a6f3-002590870b87 with status 201
+2022-02-02 21:57:46,607 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 35f92c30-84b6-11ec-b787-002590870b87
+2022-02-02 21:57:46,643 - basicLogger - INFO - Returned event add_advertisement_description response 34c627e2-84b6-11ec-9e0b-002590870b87 with status 201
+2022-02-02 21:57:46,647 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 35ff4778-84b6-11ec-960b-002590870b87
+2022-02-02 21:57:47,224 - basicLogger - INFO - Returned event add_advertisement_description response 351bd06b-84b6-11ec-b2b3-002590870b87 with status 201
+2022-02-02 21:57:47,232 - basicLogger - INFO - Returned event emp_resume response 351d5701-84b6-11ec-a04f-002590870b87 with status 201
+2022-02-02 21:57:47,244 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 365a1831-84b6-11ec-99a6-002590870b87
+2022-02-02 21:57:47,247 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 365ab472-84b6-11ec-9675-002590870b87
+2022-02-02 21:57:47,739 - basicLogger - INFO - Returned event add_advertisement_description response 356ca055-84b6-11ec-8b7c-002590870b87 with status 201
+2022-02-02 21:57:47,742 - basicLogger - INFO - Returned event emp_resume response 356acbc1-84b6-11ec-bfe3-002590870b87 with status 201
+2022-02-02 21:57:47,748 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 36a727a8-84b6-11ec-b196-002590870b87
+2022-02-02 21:57:47,753 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 36a7eb25-84b6-11ec-bc99-002590870b87
+2022-02-02 21:57:48,185 - basicLogger - INFO - Returned event emp_resume response 35ae84de-84b6-11ec-96e2-002590870b87 with status 201
+2022-02-02 21:57:48,190 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 36ea98bf-84b6-11ec-a85c-002590870b87
+2022-02-02 21:57:48,231 - basicLogger - INFO - Returned event add_advertisement_description response 35b58a10-84b6-11ec-b684-002590870b87 with status 201
+2022-02-02 21:57:48,236 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 36f17cf5-84b6-11ec-b67c-002590870b87
+2022-02-02 21:57:48,673 - basicLogger - INFO - Returned event emp_resume response 35f5349e-84b6-11ec-b3d5-002590870b87 with status 201
+2022-02-02 21:57:48,688 - basicLogger - INFO - Returned event add_advertisement_description response 35f92c30-84b6-11ec-b787-002590870b87 with status 201
+2022-02-02 21:57:48,694 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 373785cc-84b6-11ec-ad61-002590870b87
+2022-02-02 21:57:48,696 - basicLogger - INFO - Returned event emp_resume response 35f6bb59-84b6-11ec-9070-002590870b87 with status 201
+2022-02-02 21:57:48,709 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3739a919-84b6-11ec-8885-002590870b87
+2022-02-02 21:57:48,712 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 373a44e0-84b6-11ec-a494-002590870b87
+2022-02-02 21:57:48,720 - basicLogger - INFO - Returned event emp_resume response 35ff4778-84b6-11ec-960b-002590870b87 with status 201
+2022-02-02 21:57:48,725 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 373c407c-84b6-11ec-859d-002590870b87
+2022-02-02 21:57:49,307 - basicLogger - INFO - Returned event emp_resume response 365a1831-84b6-11ec-99a6-002590870b87 with status 201
+2022-02-02 21:57:49,310 - basicLogger - INFO - Returned event add_advertisement_description response 365ab472-84b6-11ec-9675-002590870b87 with status 201
+2022-02-02 21:57:49,315 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 37965ed9-84b6-11ec-a768-002590870b87
+2022-02-02 21:57:49,318 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3796d438-84b6-11ec-9621-002590870b87
+2022-02-02 21:57:49,845 - basicLogger - INFO - Returned event emp_resume response 36a727a8-84b6-11ec-b196-002590870b87 with status 201
+2022-02-02 21:57:49,852 - basicLogger - INFO - Returned event add_advertisement_description response 36a7eb25-84b6-11ec-bc99-002590870b87 with status 201
+2022-02-02 21:57:49,862 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 37e9c3cf-84b6-11ec-91f4-002590870b87
+2022-02-02 21:57:49,866 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 37ea5f83-84b6-11ec-b863-002590870b87
+2022-02-02 21:57:50,270 - basicLogger - INFO - Returned event add_advertisement_description response 36ea98bf-84b6-11ec-a85c-002590870b87 with status 201
+2022-02-02 21:57:50,280 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 38298360-84b6-11ec-a976-002590870b87
+2022-02-02 21:57:50,290 - basicLogger - INFO - Returned event emp_resume response 36f17cf5-84b6-11ec-b67c-002590870b87 with status 201
+2022-02-02 21:57:50,302 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 382cde89-84b6-11ec-92c3-002590870b87
+2022-02-02 21:57:50,793 - basicLogger - INFO - Returned event add_advertisement_description response 373a44e0-84b6-11ec-a494-002590870b87 with status 201
+2022-02-02 21:57:50,797 - basicLogger - INFO - Returned event add_advertisement_description response 373785cc-84b6-11ec-ad61-002590870b87 with status 201
+2022-02-02 21:57:50,806 - basicLogger - INFO - Returned event emp_resume response 3739a919-84b6-11ec-8885-002590870b87 with status 201
+2022-02-02 21:57:50,809 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 387a3d5e-84b6-11ec-b7e1-002590870b87
+2022-02-02 21:57:50,813 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 387ad93e-84b6-11ec-92ac-002590870b87
+2022-02-02 21:57:50,815 - basicLogger - INFO - Returned event add_advertisement_description response 373c407c-84b6-11ec-859d-002590870b87 with status 201
+2022-02-02 21:57:50,822 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 387c38ce-84b6-11ec-bdca-002590870b87
+2022-02-02 21:57:50,826 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 387cd4ee-84b6-11ec-a2c1-002590870b87
+2022-02-02 21:57:51,386 - basicLogger - INFO - Returned event emp_resume response 3796d438-84b6-11ec-9621-002590870b87 with status 201
+2022-02-02 21:57:51,390 - basicLogger - INFO - Returned event add_advertisement_description response 37965ed9-84b6-11ec-a768-002590870b87 with status 201
+2022-02-02 21:57:51,397 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 38d3f311-84b6-11ec-91bd-002590870b87
+2022-02-02 21:57:51,402 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 38d4b552-84b6-11ec-8b71-002590870b87
+2022-02-02 21:57:51,954 - basicLogger - INFO - Returned event emp_resume response 37ea5f83-84b6-11ec-b863-002590870b87 with status 201
+2022-02-02 21:57:51,957 - basicLogger - INFO - Returned event add_advertisement_description response 37e9c3cf-84b6-11ec-91f4-002590870b87 with status 201
+2022-02-02 21:57:51,965 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 392ab49f-84b6-11ec-9b9b-002590870b87
+2022-02-02 21:57:51,971 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 392b9efc-84b6-11ec-8129-002590870b87
+2022-02-02 21:57:52,336 - basicLogger - INFO - Returned event emp_resume response 38298360-84b6-11ec-a976-002590870b87 with status 201
+2022-02-02 21:57:52,341 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 39641de6-84b6-11ec-b7d9-002590870b87
+2022-02-02 21:57:52,353 - basicLogger - INFO - Returned event add_advertisement_description response 382cde89-84b6-11ec-92c3-002590870b87 with status 201
+2022-02-02 21:57:52,357 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 39668ee4-84b6-11ec-b4c0-002590870b87
+2022-02-02 21:57:52,892 - basicLogger - INFO - Returned event emp_resume response 387a3d5e-84b6-11ec-b7e1-002590870b87 with status 201
+2022-02-02 21:57:52,913 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 39bb434c-84b6-11ec-999b-002590870b87
+2022-02-02 21:57:52,915 - basicLogger - INFO - Returned event add_advertisement_description response 387c38ce-84b6-11ec-bdca-002590870b87 with status 201
+2022-02-02 21:57:52,924 - basicLogger - INFO - Returned event emp_resume response 387cd4ee-84b6-11ec-a2c1-002590870b87 with status 201
+2022-02-02 21:57:52,927 - basicLogger - INFO - Returned event emp_resume response 387ad93e-84b6-11ec-92ac-002590870b87 with status 201
+2022-02-02 21:57:52,933 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 39be50a6-84b6-11ec-904e-002590870b87
+2022-02-02 21:57:52,937 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 39beecc0-84b6-11ec-8007-002590870b87
+2022-02-02 21:57:52,943 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 39bfd706-84b6-11ec-9633-002590870b87
+2022-02-02 21:57:53,479 - basicLogger - INFO - Returned event emp_resume response 38d4b552-84b6-11ec-8b71-002590870b87 with status 201
+2022-02-02 21:57:53,484 - basicLogger - INFO - Returned event add_advertisement_description response 38d3f311-84b6-11ec-91bd-002590870b87 with status 201
+2022-02-02 21:57:53,491 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3a13761c-84b6-11ec-ac42-002590870b87
+2022-02-02 21:57:53,496 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3a1439d9-84b6-11ec-bed2-002590870b87
+2022-02-02 21:57:54,024 - basicLogger - INFO - Returned event add_advertisement_description response 392ab49f-84b6-11ec-9b9b-002590870b87 with status 201
+2022-02-02 21:57:54,030 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3a65d78e-84b6-11ec-b00d-002590870b87
+2022-02-02 21:57:54,038 - basicLogger - INFO - Returned event emp_resume response 392b9efc-84b6-11ec-8129-002590870b87 with status 201
+2022-02-02 21:57:54,045 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3a67fd56-84b6-11ec-aa00-002590870b87
+2022-02-02 21:57:54,395 - basicLogger - INFO - Returned event add_advertisement_description response 39641de6-84b6-11ec-b7d9-002590870b87 with status 201
+2022-02-02 21:57:54,400 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3a9e30f6-84b6-11ec-8c0c-002590870b87
+2022-02-02 21:57:54,411 - basicLogger - INFO - Returned event emp_resume response 39668ee4-84b6-11ec-b4c0-002590870b87 with status 201
+2022-02-02 21:57:54,418 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3aa0f025-84b6-11ec-b12d-002590870b87
+2022-02-02 21:57:55,016 - basicLogger - INFO - Returned event add_advertisement_description response 39bb434c-84b6-11ec-999b-002590870b87 with status 201
+2022-02-02 21:57:55,025 - basicLogger - INFO - Returned event emp_resume response 39be50a6-84b6-11ec-904e-002590870b87 with status 201
+2022-02-02 21:57:55,027 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3afdd323-84b6-11ec-b2ca-002590870b87
+2022-02-02 21:57:55,031 - basicLogger - INFO - Returned event add_advertisement_description response 39bfd706-84b6-11ec-9633-002590870b87 with status 201
+2022-02-02 21:57:55,036 - basicLogger - INFO - Returned event add_advertisement_description response 39beecc0-84b6-11ec-8007-002590870b87 with status 201
+2022-02-02 21:57:55,041 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3b00146c-84b6-11ec-9153-002590870b87
+2022-02-02 21:57:55,049 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3b014ba2-84b6-11ec-8186-002590870b87
+2022-02-02 21:57:55,051 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3b019a65-84b6-11ec-9dbf-002590870b87
+2022-02-02 21:57:55,570 - basicLogger - INFO - Returned event emp_resume response 3a1439d9-84b6-11ec-bed2-002590870b87 with status 201
+2022-02-02 21:57:55,578 - basicLogger - INFO - Returned event add_advertisement_description response 3a13761c-84b6-11ec-ac42-002590870b87 with status 201
+2022-02-02 21:57:55,587 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3b536bc6-84b6-11ec-b296-002590870b87
+2022-02-02 21:57:55,592 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3b542efc-84b6-11ec-937e-002590870b87
+2022-02-02 21:57:56,090 - basicLogger - INFO - Returned event emp_resume response 3a65d78e-84b6-11ec-b00d-002590870b87 with status 201
+2022-02-02 21:57:56,094 - basicLogger - INFO - Returned event add_advertisement_description response 3a67fd56-84b6-11ec-aa00-002590870b87 with status 201
+2022-02-02 21:57:56,099 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3ba186fc-84b6-11ec-a12e-002590870b87
+2022-02-02 21:57:56,102 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3ba1fd2a-84b6-11ec-b31a-002590870b87
+2022-02-02 21:57:56,437 - basicLogger - INFO - Returned event emp_resume response 3a9e30f6-84b6-11ec-8c0c-002590870b87 with status 201
+2022-02-02 21:57:56,450 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3bd6f560-84b6-11ec-ae13-002590870b87
+2022-02-02 21:57:56,455 - basicLogger - INFO - Returned event add_advertisement_description response 3aa0f025-84b6-11ec-b12d-002590870b87 with status 201
+2022-02-02 21:57:56,462 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3bd8c9fb-84b6-11ec-b6f1-002590870b87
+2022-02-02 21:57:57,092 - basicLogger - INFO - Returned event add_advertisement_description response 3b00146c-84b6-11ec-9153-002590870b87 with status 201
+2022-02-02 21:57:57,098 - basicLogger - INFO - Returned event emp_resume response 3b019a65-84b6-11ec-9dbf-002590870b87 with status 201
+2022-02-02 21:57:57,105 - basicLogger - INFO - Returned event emp_resume response 3b014ba2-84b6-11ec-8186-002590870b87 with status 201
+2022-02-02 21:57:57,106 - basicLogger - INFO - Returned event emp_resume response 3afdd323-84b6-11ec-b2ca-002590870b87 with status 201
+2022-02-02 21:57:57,110 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3c3bbabf-84b6-11ec-a3e5-002590870b87
+2022-02-02 21:57:57,115 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3c3c7dee-84b6-11ec-bfd3-002590870b87
+2022-02-02 21:57:57,122 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3c3d8f69-84b6-11ec-9383-002590870b87
+2022-02-02 21:57:57,127 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3c3e52cd-84b6-11ec-a736-002590870b87
+2022-02-02 21:57:57,670 - basicLogger - INFO - Returned event add_advertisement_description response 3b536bc6-84b6-11ec-b296-002590870b87 with status 201
+2022-02-02 21:57:57,676 - basicLogger - INFO - Returned event emp_resume response 3b542efc-84b6-11ec-937e-002590870b87 with status 201
+2022-02-02 21:57:57,687 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3c93c03a-84b6-11ec-8e39-002590870b87
+2022-02-02 21:57:57,691 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3c945c6a-84b6-11ec-bd59-002590870b87
+2022-02-02 21:57:58,173 - basicLogger - INFO - Returned event add_advertisement_description response 3ba186fc-84b6-11ec-a12e-002590870b87 with status 201
+2022-02-02 21:57:58,190 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3ce087cf-84b6-11ec-a1bb-002590870b87
+2022-02-02 21:57:58,197 - basicLogger - INFO - Returned event emp_resume response 3ba1fd2a-84b6-11ec-b31a-002590870b87 with status 201
+2022-02-02 21:57:58,208 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3ce34795-84b6-11ec-ad00-002590870b87
+2022-02-02 21:57:58,514 - basicLogger - INFO - Returned event emp_resume response 3bd8c9fb-84b6-11ec-b6f1-002590870b87 with status 201
+2022-02-02 21:57:58,521 - basicLogger - INFO - Returned event add_advertisement_description response 3bd6f560-84b6-11ec-ae13-002590870b87 with status 201
+2022-02-02 21:57:58,527 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3d13e6d7-84b6-11ec-a48b-002590870b87
+2022-02-02 21:57:58,536 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3d1546af-84b6-11ec-81a9-002590870b87
+2022-02-02 21:57:59,161 - basicLogger - INFO - Returned event emp_resume response 3c3bbabf-84b6-11ec-a3e5-002590870b87 with status 201
+2022-02-02 21:57:59,172 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3d766064-84b6-11ec-932a-002590870b87
+2022-02-02 21:57:59,180 - basicLogger - INFO - Returned event add_advertisement_description response 3c3e52cd-84b6-11ec-a736-002590870b87 with status 201
+2022-02-02 21:57:59,183 - basicLogger - INFO - Returned event add_advertisement_description response 3c3d8f69-84b6-11ec-9383-002590870b87 with status 201
+2022-02-02 21:57:59,185 - basicLogger - INFO - Returned event add_advertisement_description response 3c3c7dee-84b6-11ec-bfd3-002590870b87 with status 201
+2022-02-02 21:57:59,188 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3d78d206-84b6-11ec-a06a-002590870b87
+2022-02-02 21:57:59,190 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3d792025-84b6-11ec-b96f-002590870b87
+2022-02-02 21:57:59,196 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3d7a09da-84b6-11ec-a0bd-002590870b87
+2022-02-02 21:57:59,753 - basicLogger - INFO - Returned event add_advertisement_description response 3c945c6a-84b6-11ec-bd59-002590870b87 with status 201
+2022-02-02 21:57:59,761 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3dd04010-84b6-11ec-9d53-002590870b87
+2022-02-02 21:57:59,763 - basicLogger - INFO - Returned event emp_resume response 3c93c03a-84b6-11ec-8e39-002590870b87 with status 201
+2022-02-02 21:57:59,772 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3dd1ee5b-84b6-11ec-9a83-002590870b87
+2022-02-02 21:58:00,226 - basicLogger - INFO - Returned event emp_resume response 3ce087cf-84b6-11ec-a1bb-002590870b87 with status 201
+2022-02-02 21:58:00,233 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3e183b6f-84b6-11ec-9125-002590870b87
+2022-02-02 21:58:00,242 - basicLogger - INFO - Returned event add_advertisement_description response 3ce34795-84b6-11ec-ad00-002590870b87 with status 201
+2022-02-02 21:58:00,250 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3e1ad2d8-84b6-11ec-b98f-002590870b87
+2022-02-02 21:58:00,609 - basicLogger - INFO - Returned event emp_resume response 3d1546af-84b6-11ec-81a9-002590870b87 with status 201
+2022-02-02 21:58:00,609 - basicLogger - INFO - Returned event add_advertisement_description response 3d13e6d7-84b6-11ec-a48b-002590870b87 with status 201
+2022-02-02 21:58:00,625 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3e5404ca-84b6-11ec-85db-002590870b87
+2022-02-02 21:58:00,628 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3e547959-84b6-11ec-b42b-002590870b87
+2022-02-02 21:58:01,253 - basicLogger - INFO - Returned event add_advertisement_description response 3d766064-84b6-11ec-932a-002590870b87 with status 201
+2022-02-02 21:58:01,262 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3eb5593e-84b6-11ec-b19a-002590870b87
+2022-02-02 21:58:01,268 - basicLogger - INFO - Returned event emp_resume response 3d792025-84b6-11ec-b96f-002590870b87 with status 201
+2022-02-02 21:58:01,271 - basicLogger - INFO - Returned event emp_resume response 3d78d206-84b6-11ec-a06a-002590870b87 with status 201
+2022-02-02 21:58:01,277 - basicLogger - INFO - Returned event emp_resume response 3d7a09da-84b6-11ec-a0bd-002590870b87 with status 201
+2022-02-02 21:58:01,283 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3eb88d63-84b6-11ec-b6ed-002590870b87
+2022-02-02 21:58:01,285 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3eb8dbe6-84b6-11ec-ae51-002590870b87
+2022-02-02 21:58:01,290 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3eb99f2f-84b6-11ec-a9f1-002590870b87
+2022-02-02 21:58:01,822 - basicLogger - INFO - Returned event emp_resume response 3dd04010-84b6-11ec-9d53-002590870b87 with status 201
+2022-02-02 21:58:01,829 - basicLogger - INFO - Returned event add_advertisement_description response 3dd1ee5b-84b6-11ec-9a83-002590870b87 with status 201
+2022-02-02 21:58:01,836 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3f0cd2f1-84b6-11ec-93ee-002590870b87
+2022-02-02 21:58:01,841 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3f0d9784-84b6-11ec-a945-002590870b87
+2022-02-02 21:58:02,285 - basicLogger - INFO - Returned event add_advertisement_description response 3e183b6f-84b6-11ec-9125-002590870b87 with status 201
+2022-02-02 21:58:02,303 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3f54066a-84b6-11ec-b1e7-002590870b87
+2022-02-02 21:58:02,310 - basicLogger - INFO - Returned event emp_resume response 3e1ad2d8-84b6-11ec-b98f-002590870b87 with status 201
+2022-02-02 21:58:02,318 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3f567745-84b6-11ec-8882-002590870b87
+2022-02-02 21:58:02,683 - basicLogger - INFO - Returned event add_advertisement_description response 3e5404ca-84b6-11ec-85db-002590870b87 with status 201
+2022-02-02 21:58:02,689 - basicLogger - INFO - Returned event emp_resume response 3e547959-84b6-11ec-b42b-002590870b87 with status 201
+2022-02-02 21:58:02,698 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3f906cfb-84b6-11ec-a668-002590870b87
+2022-02-02 21:58:02,704 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3f915799-84b6-11ec-8661-002590870b87
+2022-02-02 21:58:03,377 - basicLogger - INFO - Returned event emp_resume response 3eb5593e-84b6-11ec-b19a-002590870b87 with status 201
+2022-02-02 21:58:03,379 - basicLogger - INFO - Returned event add_advertisement_description response 3eb88d63-84b6-11ec-b6ed-002590870b87 with status 201
+2022-02-02 21:58:03,383 - basicLogger - INFO - Returned event add_advertisement_description response 3eb99f2f-84b6-11ec-a9f1-002590870b87 with status 201
+2022-02-02 21:58:03,386 - basicLogger - INFO - Returned event add_advertisement_description response 3eb8dbe6-84b6-11ec-ae51-002590870b87 with status 201
+2022-02-02 21:58:03,396 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 3ffae2d0-84b6-11ec-b3e6-002590870b87
+2022-02-02 21:58:03,401 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3ffb7f06-84b6-11ec-9556-002590870b87
+2022-02-02 21:58:03,409 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3ffcde65-84b6-11ec-9107-002590870b87
+2022-02-02 21:58:03,413 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 3ffd7a97-84b6-11ec-9ca5-002590870b87
+2022-02-02 21:58:03,898 - basicLogger - INFO - Returned event emp_resume response 3f0d9784-84b6-11ec-a945-002590870b87 with status 201
+2022-02-02 21:58:03,901 - basicLogger - INFO - Returned event add_advertisement_description response 3f0cd2f1-84b6-11ec-93ee-002590870b87 with status 201
+2022-02-02 21:58:03,909 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 40493688-84b6-11ec-9ac6-002590870b87
+2022-02-02 21:58:03,912 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 4049ab6f-84b6-11ec-8564-002590870b87
+2022-02-02 21:58:04,385 - basicLogger - INFO - Returned event emp_resume response 3f54066a-84b6-11ec-b1e7-002590870b87 with status 201
+2022-02-02 21:58:04,398 - basicLogger - INFO - Returned event add_advertisement_description response 3f567745-84b6-11ec-8882-002590870b87 with status 201
+2022-02-02 21:58:04,405 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 4094e7f6-84b6-11ec-8adc-002590870b87
+2022-02-02 21:58:04,416 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 40969544-84b6-11ec-8977-002590870b87
+2022-02-02 21:58:04,785 - basicLogger - INFO - Returned event emp_resume response 3f906cfb-84b6-11ec-a668-002590870b87 with status 201
+2022-02-02 21:58:04,792 - basicLogger - INFO - Returned event add_advertisement_description response 3f915799-84b6-11ec-8661-002590870b87 with status 201
+2022-02-02 21:58:04,797 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 40d09c3f-84b6-11ec-ac24-002590870b87
+2022-02-02 21:58:04,799 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 40d0e982-84b6-11ec-8fc8-002590870b87
+2022-02-02 21:58:05,490 - basicLogger - INFO - Returned event emp_resume response 3ffd7a97-84b6-11ec-9ca5-002590870b87 with status 201
+2022-02-02 21:58:05,493 - basicLogger - INFO - Returned event emp_resume response 3ffcde65-84b6-11ec-9107-002590870b87 with status 201
+2022-02-02 21:58:05,494 - basicLogger - INFO - Returned event add_advertisement_description response 3ffae2d0-84b6-11ec-b3e6-002590870b87 with status 201
+2022-02-02 21:58:05,502 - basicLogger - INFO - Returned event emp_resume response 3ffb7f06-84b6-11ec-9556-002590870b87 with status 201
+2022-02-02 21:58:05,509 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 413d41b1-84b6-11ec-a6f8-002590870b87
+2022-02-02 21:58:05,513 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 413dddc5-84b6-11ec-8a6f-002590870b87
+2022-02-02 21:58:05,516 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 413e52ea-84b6-11ec-8e31-002590870b87
+2022-02-02 21:58:05,518 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 413ea101-84b6-11ec-b02c-002590870b87
+2022-02-02 21:58:05,992 - basicLogger - INFO - Returned event add_advertisement_description response 40493688-84b6-11ec-9ac6-002590870b87 with status 201
+2022-02-02 21:58:05,995 - basicLogger - INFO - Returned event emp_resume response 4049ab6f-84b6-11ec-8564-002590870b87 with status 201
+2022-02-02 21:58:06,002 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 41887aae-84b6-11ec-84d1-002590870b87
+2022-02-02 21:58:06,005 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 4188eee3-84b6-11ec-9615-002590870b87
+2022-02-02 21:58:06,467 - basicLogger - INFO - Returned event add_advertisement_description response 4094e7f6-84b6-11ec-8adc-002590870b87 with status 201
+2022-02-02 21:58:06,471 - basicLogger - INFO - Returned event emp_resume response 40969544-84b6-11ec-8977-002590870b87 with status 201
+2022-02-02 21:58:06,475 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 41d0c017-84b6-11ec-b1cc-002590870b87
+2022-02-02 21:58:06,477 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 41d10d94-84b6-11ec-adfb-002590870b87
+2022-02-02 21:58:06,867 - basicLogger - INFO - Returned event add_advertisement_description response 40d09c3f-84b6-11ec-ac24-002590870b87 with status 201
+2022-02-02 21:58:06,871 - basicLogger - INFO - Returned event emp_resume response 40d0e982-84b6-11ec-8fc8-002590870b87 with status 201
+2022-02-02 21:58:06,880 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 420e9599-84b6-11ec-8a86-002590870b87
+2022-02-02 21:58:06,889 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 420ff6b2-84b6-11ec-b7b0-002590870b87
+2022-02-02 21:58:07,610 - basicLogger - INFO - Returned event add_advertisement_description response 413ea101-84b6-11ec-b02c-002590870b87 with status 201
+2022-02-02 21:58:07,615 - basicLogger - INFO - Returned event add_advertisement_description response 413d41b1-84b6-11ec-a6f8-002590870b87 with status 201
+2022-02-02 21:58:07,620 - basicLogger - INFO - Returned event emp_resume response 413e52ea-84b6-11ec-8e31-002590870b87 with status 201
+2022-02-02 21:58:07,620 - basicLogger - INFO - Returned event add_advertisement_description response 413dddc5-84b6-11ec-8a6f-002590870b87 with status 201
+2022-02-02 21:58:07,624 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 42801e09-84b6-11ec-8ec3-002590870b87
+2022-02-02 21:58:07,635 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 4281cbdf-84b6-11ec-9e15-002590870b87
+2022-02-02 21:58:07,644 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 42830406-84b6-11ec-9ff8-002590870b87
+2022-02-02 21:58:07,648 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 4283a04c-84b6-11ec-b51e-002590870b87
+2022-02-02 21:58:08,079 - basicLogger - INFO - Returned event emp_resume response 41887aae-84b6-11ec-84d1-002590870b87 with status 201
+2022-02-02 21:58:08,080 - basicLogger - INFO - Returned event add_advertisement_description response 4188eee3-84b6-11ec-9615-002590870b87 with status 201
+2022-02-02 21:58:08,093 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 42c78ce1-84b6-11ec-bed3-002590870b87
+2022-02-02 21:58:08,097 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 42c82897-84b6-11ec-a85f-002590870b87
+2022-02-02 21:58:08,547 - basicLogger - INFO - Returned event add_advertisement_description response 41d10d94-84b6-11ec-adfb-002590870b87 with status 201
+2022-02-02 21:58:08,552 - basicLogger - INFO - Returned event emp_resume response 41d0c017-84b6-11ec-b1cc-002590870b87 with status 201
+2022-02-02 21:58:08,560 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 430ed0cf-84b6-11ec-bfd7-002590870b87
+2022-02-02 21:58:08,566 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 430fbb08-84b6-11ec-acc3-002590870b87
+2022-02-02 21:58:08,962 - basicLogger - INFO - Returned event emp_resume response 420e9599-84b6-11ec-8a86-002590870b87 with status 201
+2022-02-02 21:58:08,964 - basicLogger - INFO - Returned event add_advertisement_description response 420ff6b2-84b6-11ec-b7b0-002590870b87 with status 201
+2022-02-02 21:58:08,970 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 434d6bcd-84b6-11ec-ad25-002590870b87
+2022-02-02 21:58:08,973 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 434de017-84b6-11ec-b002-002590870b87
+2022-02-02 21:58:09,707 - basicLogger - INFO - Returned event emp_resume response 4283a04c-84b6-11ec-b51e-002590870b87 with status 201
+2022-02-02 21:58:09,708 - basicLogger - INFO - Returned event emp_resume response 42801e09-84b6-11ec-8ec3-002590870b87 with status 201
+2022-02-02 21:58:09,711 - basicLogger - INFO - Returned event emp_resume response 4281cbdf-84b6-11ec-9e15-002590870b87 with status 201
+2022-02-02 21:58:09,713 - basicLogger - INFO - Returned event add_advertisement_description response 42830406-84b6-11ec-9ff8-002590870b87 with status 201
+2022-02-02 21:58:09,721 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 43bff462-84b6-11ec-abc5-002590870b87
+2022-02-02 21:58:09,724 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 43c06a74-84b6-11ec-b738-002590870b87
+2022-02-02 21:58:09,727 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 43c0df84-84b6-11ec-9f9e-002590870b87
+2022-02-02 21:58:09,736 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 43c23e58-84b6-11ec-8e02-002590870b87
+2022-02-02 21:58:10,170 - basicLogger - INFO - Returned event add_advertisement_description response 42c82897-84b6-11ec-a85f-002590870b87 with status 201
+2022-02-02 21:58:10,177 - basicLogger - INFO - Returned event emp_resume response 42c78ce1-84b6-11ec-bed3-002590870b87 with status 201
+2022-02-02 21:58:10,190 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 44078780-84b6-11ec-98a9-002590870b87
+2022-02-02 21:58:10,194 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 440823d9-84b6-11ec-8526-002590870b87
+2022-02-02 21:58:10,640 - basicLogger - INFO - Returned event add_advertisement_description response 430fbb08-84b6-11ec-acc3-002590870b87 with status 201
+2022-02-02 21:58:10,641 - basicLogger - INFO - Returned event emp_resume response 430ed0cf-84b6-11ec-bfd7-002590870b87 with status 201
+2022-02-02 21:58:10,651 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 444dec0c-84b6-11ec-813f-002590870b87
+2022-02-02 21:58:10,657 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 444ed66e-84b6-11ec-b232-002590870b87
+2022-02-02 21:58:11,042 - basicLogger - INFO - Returned event emp_resume response 434de017-84b6-11ec-b002-002590870b87 with status 201
+2022-02-02 21:58:11,044 - basicLogger - INFO - Returned event add_advertisement_description response 434d6bcd-84b6-11ec-ad25-002590870b87 with status 201
+2022-02-02 21:58:11,053 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 448b48a5-84b6-11ec-a400-002590870b87
+2022-02-02 21:58:11,056 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 448bbdc4-84b6-11ec-a1d0-002590870b87
+2022-02-02 21:58:11,801 - basicLogger - INFO - Returned event add_advertisement_description response 43bff462-84b6-11ec-abc5-002590870b87 with status 201
+2022-02-02 21:58:11,805 - basicLogger - INFO - Returned event add_advertisement_description response 43c0df84-84b6-11ec-9f9e-002590870b87 with status 201
+2022-02-02 21:58:11,807 - basicLogger - INFO - Returned event emp_resume response 43c23e58-84b6-11ec-8e02-002590870b87 with status 201
+2022-02-02 21:58:11,809 - basicLogger - INFO - Returned event add_advertisement_description response 43c06a74-84b6-11ec-b738-002590870b87 with status 201
+2022-02-02 21:58:11,813 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 44ff3cb9-84b6-11ec-9986-002590870b87
+2022-02-02 21:58:11,817 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 44ffd9c0-84b6-11ec-9c27-002590870b87
+2022-02-02 21:58:11,820 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 45004e3d-84b6-11ec-a521-002590870b87
+2022-02-02 21:58:11,827 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 45016079-84b6-11ec-a9cc-002590870b87
+2022-02-02 21:58:12,243 - basicLogger - INFO - Returned event emp_resume response 44078780-84b6-11ec-98a9-002590870b87 with status 201
+2022-02-02 21:58:12,247 - basicLogger - INFO - Returned event add_advertisement_description response 440823d9-84b6-11ec-8526-002590870b87 with status 201
+2022-02-02 21:58:12,253 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 45425cd8-84b6-11ec-bbc1-002590870b87
+2022-02-02 21:58:12,257 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 4542f8bf-84b6-11ec-9338-002590870b87
+2022-02-02 21:58:12,728 - basicLogger - INFO - Returned event add_advertisement_description response 444ed66e-84b6-11ec-b232-002590870b87 with status 201
+2022-02-02 21:58:12,730 - basicLogger - INFO - Returned event emp_resume response 444dec0c-84b6-11ec-813f-002590870b87 with status 201
+2022-02-02 21:58:12,738 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 458c5190-84b6-11ec-b22e-002590870b87
+2022-02-02 21:58:12,741 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 458cc5ea-84b6-11ec-a1ce-002590870b87
+2022-02-02 21:58:13,129 - basicLogger - INFO - Returned event add_advertisement_description response 448b48a5-84b6-11ec-a400-002590870b87 with status 201
+2022-02-02 21:58:13,135 - basicLogger - INFO - Returned event emp_resume response 448bbdc4-84b6-11ec-a1d0-002590870b87 with status 201
+2022-02-02 21:58:13,143 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 45ca36b7-84b6-11ec-b1b7-002590870b87
+2022-02-02 21:58:13,149 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 45cb20e8-84b6-11ec-b522-002590870b87
+2022-02-02 21:58:13,887 - basicLogger - INFO - Returned event emp_resume response 44ff3cb9-84b6-11ec-9986-002590870b87 with status 201
+2022-02-02 21:58:13,898 - basicLogger - INFO - Returned event add_advertisement_description response 45004e3d-84b6-11ec-a521-002590870b87 with status 201
+2022-02-02 21:58:13,901 - basicLogger - INFO - Returned event emp_resume response 44ffd9c0-84b6-11ec-9c27-002590870b87 with status 201
+2022-02-02 21:58:13,909 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 463f04e0-84b6-11ec-b1f2-002590870b87
+2022-02-02 21:58:13,911 - basicLogger - INFO - Returned event emp_resume response 45016079-84b6-11ec-a9cc-002590870b87 with status 201
+2022-02-02 21:58:13,920 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 4640b2a5-84b6-11ec-8f9b-002590870b87
+2022-02-02 21:58:13,922 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 4640fff6-84b6-11ec-95ce-002590870b87
+2022-02-02 21:58:13,926 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 46419c37-84b6-11ec-85c3-002590870b87
+2022-02-02 21:58:14,338 - basicLogger - INFO - Returned event add_advertisement_description response 45425cd8-84b6-11ec-bbc1-002590870b87 with status 201
+2022-02-02 21:58:14,341 - basicLogger - INFO - Returned event emp_resume response 4542f8bf-84b6-11ec-9338-002590870b87 with status 201
+2022-02-02 21:58:14,348 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 4681fb68-84b6-11ec-a690-002590870b87
+2022-02-02 21:58:14,352 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 4682978c-84b6-11ec-970b-002590870b87
+2022-02-02 21:58:14,811 - basicLogger - INFO - Returned event emp_resume response 458c5190-84b6-11ec-b22e-002590870b87 with status 201
+2022-02-02 21:58:14,814 - basicLogger - INFO - Returned event add_advertisement_description response 458cc5ea-84b6-11ec-a1ce-002590870b87 with status 201
+2022-02-02 21:58:14,821 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 46ca2e41-84b6-11ec-acae-002590870b87
+2022-02-02 21:58:14,827 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 46cb189a-84b6-11ec-96cc-002590870b87
+2022-02-02 21:58:15,210 - basicLogger - INFO - Returned event add_advertisement_description response 45cb20e8-84b6-11ec-b522-002590870b87 with status 201
+2022-02-02 21:58:15,218 - basicLogger - INFO - Returned event emp_resume response 45ca36b7-84b6-11ec-b1b7-002590870b87 with status 201
+2022-02-02 21:58:15,230 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 470872b9-84b6-11ec-bf61-002590870b87
+2022-02-02 21:58:15,235 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 470935a9-84b6-11ec-a671-002590870b87
+2022-02-02 21:58:15,958 - basicLogger - INFO - Returned event add_advertisement_description response 463f04e0-84b6-11ec-b1f2-002590870b87 with status 201
+2022-02-02 21:58:15,962 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 47785263-84b6-11ec-bc9d-002590870b87
+2022-02-02 21:58:15,975 - basicLogger - INFO - Returned event add_advertisement_description response 46419c37-84b6-11ec-85c3-002590870b87 with status 201
+2022-02-02 21:58:15,978 - basicLogger - INFO - Returned event emp_resume response 4640b2a5-84b6-11ec-8f9b-002590870b87 with status 201
+2022-02-02 21:58:15,980 - basicLogger - INFO - Returned event add_advertisement_description response 4640fff6-84b6-11ec-95ce-002590870b87 with status 201
+2022-02-02 21:58:15,982 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 477b5fa2-84b6-11ec-8b0f-002590870b87
+2022-02-02 21:58:15,987 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 477c22f7-84b6-11ec-b419-002590870b87
+2022-02-02 21:58:15,991 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 477cbf37-84b6-11ec-8265-002590870b87
+2022-02-02 21:58:16,409 - basicLogger - INFO - Returned event emp_resume response 4681fb68-84b6-11ec-a690-002590870b87 with status 201
+2022-02-02 21:58:16,411 - basicLogger - INFO - Returned event add_advertisement_description response 4682978c-84b6-11ec-970b-002590870b87 with status 201
+2022-02-02 21:58:16,416 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 47bd9a1a-84b6-11ec-9c25-002590870b87
+2022-02-02 21:58:16,419 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 47be0f46-84b6-11ec-8ec5-002590870b87
+2022-02-02 21:58:16,862 - basicLogger - INFO - Returned event add_advertisement_description response 46ca2e41-84b6-11ec-acae-002590870b87 with status 201
+2022-02-02 21:58:16,867 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 48026f16-84b6-11ec-9845-002590870b87
+2022-02-02 21:58:16,877 - basicLogger - INFO - Returned event emp_resume response 46cb189a-84b6-11ec-96cc-002590870b87 with status 201
+2022-02-02 21:58:16,883 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 4804e00c-84b6-11ec-8fad-002590870b87
+2022-02-02 21:58:17,261 - basicLogger - INFO - Returned event emp_resume response 470872b9-84b6-11ec-bf61-002590870b87 with status 201
+2022-02-02 21:58:17,267 - basicLogger - INFO - Recieved event add_advertisement_description request with a trace id of 483f7c03-84b6-11ec-8f28-002590870b87
+2022-02-02 21:58:17,289 - basicLogger - INFO - Returned event add_advertisement_description response 470935a9-84b6-11ec-a671-002590870b87 with status 201
+2022-02-02 21:58:17,293 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 48437544-84b6-11ec-b927-002590870b87
+2022-02-02 21:58:18,004 - basicLogger - INFO - Returned event emp_resume response 47785263-84b6-11ec-bc9d-002590870b87 with status 201
+2022-02-02 21:58:18,020 - basicLogger - INFO - Returned event emp_resume response 477b5fa2-84b6-11ec-8b0f-002590870b87 with status 201
+2022-02-02 21:58:18,038 - basicLogger - INFO - Returned event emp_resume response 477cbf37-84b6-11ec-8265-002590870b87 with status 201
+2022-02-02 21:58:18,040 - basicLogger - INFO - Returned event add_advertisement_description response 477c22f7-84b6-11ec-b419-002590870b87 with status 201
+2022-02-02 21:58:18,046 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 48b64173-84b6-11ec-a488-002590870b87
+2022-02-02 21:58:18,461 - basicLogger - INFO - Returned event add_advertisement_description response 47bd9a1a-84b6-11ec-9c25-002590870b87 with status 201
+2022-02-02 21:58:18,463 - basicLogger - INFO - Returned event emp_resume response 47be0f46-84b6-11ec-8ec5-002590870b87 with status 201
+2022-02-02 21:58:18,468 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 48f6ae49-84b6-11ec-85dc-002590870b87
+2022-02-02 21:58:18,904 - basicLogger - INFO - Returned event emp_resume response 48026f16-84b6-11ec-9845-002590870b87 with status 201
+2022-02-02 21:58:18,921 - basicLogger - INFO - Returned event add_advertisement_description response 4804e00c-84b6-11ec-8fad-002590870b87 with status 201
+2022-02-02 21:58:18,925 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 493c69d7-84b6-11ec-8e5c-002590870b87
+2022-02-02 21:58:19,299 - basicLogger - INFO - Returned event add_advertisement_description response 483f7c03-84b6-11ec-8f28-002590870b87 with status 201
+2022-02-02 21:58:19,303 - basicLogger - INFO - Recieved event emp_resume request with a trace id of 49762784-84b6-11ec-a618-002590870b87
+2022-02-02 21:58:19,330 - basicLogger - INFO - Returned event emp_resume response 48437544-84b6-11ec-b927-002590870b87 with status 201
+2022-02-02 21:58:20,082 - basicLogger - INFO - Returned event emp_resume response 48b64173-84b6-11ec-a488-002590870b87 with status 201
+2022-02-02 21:58:20,508 - basicLogger - INFO - Returned event emp_resume response 48f6ae49-84b6-11ec-85dc-002590870b87 with status 201
+2022-02-02 21:58:20,958 - basicLogger - INFO - Returned event emp_resume response 493c69d7-84b6-11ec-8e5c-002590870b87 with status 201
+2022-02-02 21:58:21,368 - basicLogger - INFO - Returned event emp_resume response 49762784-84b6-11ec-a618-002590870b87 with status 201

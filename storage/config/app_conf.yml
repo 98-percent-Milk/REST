@@ -1,0 +1,11 @@
+version: 1
+datastore:
+  user: user
+  password: password
+  hostname: restapi.eastus2.cloudapp.azure.com
+  port: 3306
+  db: events
+events:
+  hostname: restapi.eastus2.cloudapp.azure.com
+  port: 9092
+  topic: events

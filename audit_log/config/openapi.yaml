@@ -1,0 +1,151 @@
+openapi: 3.0.0 
+info: 
+  description: This API provides audit info 
+  version: "1.0.0" 
+  title: Audit API 
+  contact: 
+    email: mmulder10@bcit.ca 
+ 
+paths: 
+  /job_description: 
+    get: 
+      summary: gets a job add description from the queue
+      operationId: app.get_job_description
+      description: Gets job add description from the event db 
+      parameters: 
+        - name: index 
+          in: query 
+          description: Gets the Job Describtion at the index in the event queue 
+          schema: 
+            type: integer 
+            example: 100 
+      responses: 
+        '200': 
+          description: Successfully returned a job description event 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                items: 
+                  $ref: '#/components/schemas/AdDescription' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+        '404': 
+          description: Not Found 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+ 
+  /employee_resume: 
+    get: 
+      summary: gets a employee resume from history 
+      operationId: app.get_emp_resume
+      description: Gets a employee resume from the event queue 
+      parameters: 
+        - name: index 
+          in: query 
+          description: Gets the employee resume at the index in the event store 
+          schema: 
+            type: integer 
+            example: 100 
+      responses: 
+        '200': 
+          description: Successfully returned a employee resume event 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                items: 
+                  $ref: '#/components/schemas/Resume' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+        '404': 
+          description: Not Found 
+ 
+components: 
+  schemas: 
+    AdDescription: 
+      required:
+      - ad_id
+      - date_created
+      - description
+      - employer
+      - field
+      - position
+      - trace_id
+      type: object
+      properties:
+        ad_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        employer:
+          type: string
+          example: Amazon
+        description:
+          type: string
+          example: NFT start up company looking for android app and game developers
+        field:
+          type: string
+          example: NFT
+        position:
+          type: string
+          example: Developer
+        date_created:
+          type: string
+          format: date-time
+          example: "2021-10-29 09:12:33"
+        trace_id:
+          type: string
+          format: uuid
+          example: d291s2ee-6c14-4b01-90e6-d701748f0851
+          
+    Resume: 
+      required:
+      - date_created
+      - experience
+      - field
+      - position
+      - resume_id
+      - trace_id
+      type: object
+      properties:
+        resume_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        field:
+          type: string
+          example: "NFT"
+        position:
+          type: string
+          example: "Developer"
+        experience:
+          type: integer
+        date_created:
+          type: string
+          format: date-time
+          example: "2021-10-29 09:12:33"
+        trace_id:
+          type: string
+          format: uuid
+          example: d211f1ee-6c54-4b02-90e6-d701748f0851
+

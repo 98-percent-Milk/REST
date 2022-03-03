@@ -1,0 +1,114 @@
+---
+openapi: 3.0.0
+info:
+  title: Job Searching API
+  description: This API recieves job applications and resumes from employers and individuals
+  contact:
+    email: mjantsan@my.bcit.ca
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+tags:
+- name: employers
+  description: People or organizations looking to hire new workers
+- name: employees
+  description: Individuals who are researching or searching for new career or position
+# paths:
+#   /work/ad_description:
+#     post:
+#       tags:
+#       - employers
+#       summary: adds a work advertisement description
+#       description: Adds a new job advertisement description to the system
+#       # operationId: app.add_advertisement_description
+#       requestBody:
+#         description: Advertisement description item to add
+#         content:
+#           application/json:
+#             schema:
+#               $ref: '#/components/schemas/AdDescription'
+#       responses:
+#         "201":
+#           description: item created
+#         "400":
+#           description: invalid input, object invalid
+#         "409":
+#           description: this ad already exists
+#   /employee/resume:
+#     post:
+#       tags:
+#       - employees
+#       summary: adds an employee resume
+#       description: Adds a new resume in to the system
+#       # operationId: app.emp_resume
+#       requestBody:
+#         description: Employee resume item to add
+#         content:
+#           application/json:
+#             schema:
+#               $ref: '#/components/schemas/Resume'
+#       responses:
+#         "201":
+#           description: item created
+#         "400":
+#           description: invalid input, object invalid
+#         "409":
+#           description: this resume already exists
+# components:
+#   schemas:
+#     AdDescription:
+#       required:
+#       - ad_id
+#       - date_created
+#       - description
+#       - employer
+#       - field
+#       - position
+#       type: object
+#       properties:
+#         ad_id:
+#           type: string
+#           format: uuid
+#           example: d290f1ee-6c54-4b01-90e6-d701748f0851
+#         employer:
+#           type: string
+#           example: Amazon, PostalOffice, Self-Employer
+#         description:
+#           type: string
+#           example: NFT start up company looking for android app and game developers
+#         field:
+#           type: string
+#           example: NFT, Blockchain, IT, Crypto 
+#         position:
+#           type: string
+#           example: Developer, Tester, Backend
+#         date_created:
+#           type: string
+#           format: date-time
+#           example: 2021-10-29T09:12:33.001Z
+#     Resume:
+#       required:
+#       - date_created
+#       - experience
+#       - field
+#       - position
+#       - resume_id
+#       type: object
+#       properties:
+#         resume_id:
+#           type: string
+#           format: uuid
+#           example: d290f1ee-6c54-4b01-90e6-d701748f0851
+#         field:
+#           type: string
+#           example: "NFT, Blockchain, Crypto, IT"
+#         position:
+#           type: string
+#           example: "Developer, Tester, Backend"
+#         experience:
+#           type: integer
+#         date_created:
+#           type: string
+#           format: date-time
+#           example: 2021-10-29T09:12:33.001Z

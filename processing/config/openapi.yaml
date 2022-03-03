@@ -1,0 +1,67 @@
+---
+openapi: 3.0.0
+info:
+  title: Job Searching API
+  description: This API recieves job applications and resumes from employers and individuals
+  contact:
+    email: mjantsan@my.bcit.ca
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+tags:
+- name: employers
+  description: People or organizations looking to hire new workers
+- name: employees
+  description: Individuals who are researching or searching for new career or position
+paths: 
+  /stats: 
+    get: 
+      summary: Gets the event stats 
+      operationId: app.get_stats 
+      description: Gets Job Description and Employee resume event stats
+      responses: 
+        '200': 
+          description: Successfully returned a list of Job Description or Employee Resume events 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                items: 
+                  $ref: '#/components/schemas/EventsStats' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+ 
+components: 
+  schemas: 
+    EventsStats: 
+      required: 
+      - num_employees
+      - popular_field
+      - unpopular_field
+      - desp_employer
+      - least_desp_employer
+      properties: 
+        num_employees: 
+          type: integer 
+          example: 120 
+        popular_field: 
+          type: string 
+          example: "NFT"
+        unpopular_field: 
+          type: string 
+          example: "NFT" 
+        desp_employer: 
+          type: string 
+          example: "Facebook"
+        least_desp_employer: 
+          type: string
+          example: "Alibaba"
+      type: object

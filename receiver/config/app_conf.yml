@@ -1,0 +1,9 @@
+version: 1
+eventstore1:
+  url: http://localhost:8090/work/ad_description
+eventstore2:
+  url: http://localhost:8090/employee/resume
+events:
+  hostname: restapi.eastus2.cloudapp.azure.com
+  port: 9092
+  topic: events

@@ -1,0 +1,311 @@
+2022-02-15 18:44:39,009 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 18:44:44,016 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 18:48:35,285 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 18:48:40,295 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 18:48:59,060 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 18:49:04,054 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 18:54:03,393 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 18:54:05,502 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 18:54:07,599 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 18:54:07,600 - basicLogger - DEBUG - Populate stats trace id: b580d553-8ed3-11ec-83d0-002590870b87
+2022-02-15 18:54:08,396 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 18:54:10,496 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 18:54:12,585 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 18:54:12,586 - basicLogger - DEBUG - Populate stats trace id: b879b25a-8ed3-11ec-9aec-002590870b87
+2022-02-15 19:12:45,457 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:13:25,202 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:13:30,208 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:13:53,696 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:13:58,698 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:16:52,721 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:18:11,551 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:18:24,063 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:19:56,344 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:19:56,374 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:19:58,470 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:20:00,559 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:20:00,560 - basicLogger - DEBUG - Populate stats trace id: 5323b1ef-8ed7-11ec-b903-002590870b87
+2022-02-15 19:20:01,360 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:20:01,370 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:20:03,455 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:20:05,543 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:20:05,544 - basicLogger - DEBUG - Populate stats trace id: 561c3b67-8ed7-11ec-8d11-002590870b87
+2022-02-15 19:44:34,976 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:44:35,012 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:44:37,123 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:44:39,207 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:44:39,208 - basicLogger - DEBUG - Populate stats trace id: c47b7c91-8eda-11ec-92f5-002590870b87
+2022-02-15 19:44:39,985 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:44:39,993 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:44:42,103 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:44:44,244 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:44:44,245 - basicLogger - DEBUG - Populate stats trace id: c77bed38-8eda-11ec-995d-002590870b87
+2022-02-15 19:51:23,812 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:51:23,831 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:51:25,961 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:51:28,036 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:51:28,037 - basicLogger - DEBUG - Populate stats trace id: b829c8b3-8edb-11ec-b651-002590870b87
+2022-02-15 19:51:28,834 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:51:28,843 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:51:30,933 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:51:33,030 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:51:33,031 - basicLogger - DEBUG - Populate stats trace id: bb23c948-8edb-11ec-9352-002590870b87
+2022-02-15 19:54:13,541 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:54:13,575 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:54:15,682 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:54:17,753 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:54:17,754 - basicLogger - DEBUG - Populate stats trace id: 1d5289e9-8edc-11ec-a345-002590870b87
+2022-02-15 19:54:18,539 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:54:18,549 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:54:20,643 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:54:22,728 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:54:22,728 - basicLogger - DEBUG - Populate stats trace id: 20498408-8edc-11ec-8f9a-002590870b87
+2022-02-15 19:58:07,494 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:58:07,521 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:58:09,649 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:58:11,727 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:58:11,728 - basicLogger - DEBUG - Populate stats trace id: a8c8277d-8edc-11ec-9488-002590870b87
+2022-02-15 19:58:12,497 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:58:12,510 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:58:14,565 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:58:16,624 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:58:16,625 - basicLogger - DEBUG - Populate stats trace id: abb34b63-8edc-11ec-81b3-002590870b87
+2022-02-15 19:59:41,233 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 19:59:41,266 - basicLogger - INFO - Stats database is empty
+2022-02-15 19:59:43,358 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 19:59:45,439 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 19:59:45,440 - basicLogger - DEBUG - Populate stats trace id: e0a372b8-8edc-11ec-b83b-002590870b87
+2022-02-15 19:59:46,240 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:03:45,039 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:04:16,307 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:04:16,339 - basicLogger - INFO - Stats database is empty
+2022-02-15 20:04:18,445 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:04:20,551 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:04:20,552 - basicLogger - DEBUG - Populate stats trace id: 849e4cd7-8edd-11ec-b161-002590870b87
+2022-02-15 20:04:24,313 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:04:24,317 - basicLogger - INFO - Stats database is empty
+2022-02-15 20:04:26,362 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:04:28,465 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:04:28,466 - basicLogger - DEBUG - Populate stats trace id: 8955dfab-8edd-11ec-b6cb-002590870b87
+2022-02-15 20:04:41,946 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:04:41,983 - basicLogger - INFO - Stats database is empty
+2022-02-15 20:04:44,063 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:04:46,156 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:04:46,157 - basicLogger - DEBUG - Populate stats trace id: 93e14faa-8edd-11ec-91b4-002590870b87
+2022-02-15 20:04:49,958 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:06:03,149 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:06:03,171 - basicLogger - INFO - Stats database is empty
+2022-02-15 20:06:05,274 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:06:07,355 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:06:07,356 - basicLogger - DEBUG - Populate stats trace id: c447252f-8edd-11ec-a0b0-002590870b87
+2022-02-15 20:06:11,152 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:08:23,517 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:09:10,460 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:09:49,180 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:10:19,741 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:11:35,206 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:11:49,558 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:12:08,595 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:12:18,780 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:12:36,890 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:15:01,106 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:15:01,132 - basicLogger - INFO - Last timestamp 2022-02-15 20:06:07
+2022-02-15 20:15:03,178 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:15:05,271 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:15:05,273 - basicLogger - DEBUG - Populate stats trace id: 04e6b735-8edf-11ec-be7e-002590870b87
+2022-02-15 20:15:05,276 - basicLogger - DEBUG - Event Statistics: {'num_employees': 100, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:15:36,905 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:15:36,942 - basicLogger - INFO - Stats database is empty
+2022-02-15 20:15:39,016 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:15:41,097 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:15:41,098 - basicLogger - DEBUG - Populate stats trace id: 1a416bcd-8edf-11ec-b650-002590870b87
+2022-02-15 20:15:41,101 - basicLogger - DEBUG - Event Statistics: {'num_employees': 100, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:16:06,693 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:16:06,711 - basicLogger - INFO - Last timestamp 2022-02-15 20:15:41
+2022-02-15 20:16:08,808 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:16:10,915 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:16:10,915 - basicLogger - DEBUG - Populate stats trace id: 2c0711aa-8edf-11ec-8190-002590870b87
+2022-02-15 20:16:10,918 - basicLogger - DEBUG - Event Statistics: {'num_employees': 100, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:16:14,694 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:16:14,701 - basicLogger - INFO - Last timestamp 2022-02-15 20:16:10
+2022-02-15 20:16:16,821 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:16:18,908 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:16:18,909 - basicLogger - DEBUG - Populate stats trace id: 30cacf75-8edf-11ec-82b2-002590870b87
+2022-02-15 20:16:18,913 - basicLogger - DEBUG - Event Statistics: {'num_employees': 100, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:17:04,948 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:17:04,976 - basicLogger - INFO - Stats database is empty
+2022-02-15 20:17:07,069 - basicLogger - INFO - Resume request retrieved 100 events.
+2022-02-15 20:17:09,140 - basicLogger - INFO - Job request retrieved 100 events.
+2022-02-15 20:17:09,141 - basicLogger - DEBUG - Populate stats trace id: 4ebb9bd8-8edf-11ec-bd44-002590870b87
+2022-02-15 20:17:09,143 - basicLogger - DEBUG - Event Statistics: {'num_employees': 100, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:17:12,943 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:17:12,949 - basicLogger - INFO - Last timestamp 2022-02-15 20:17:09
+2022-02-15 20:17:15,052 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-02-15 20:17:15,053 - basicLogger - INFO - Resume request retrieved 4 events.
+2022-02-15 20:17:17,107 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:17:17,109 - basicLogger - DEBUG - Populate stats trace id: 537b8481-8edf-11ec-89be-002590870b87
+2022-02-15 20:20:50,447 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:20:50,480 - basicLogger - INFO - Last timestamp 2022-02-15 20:17:09
+2022-02-15 20:20:52,550 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:20:54,632 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:20:54,633 - basicLogger - DEBUG - Populate stats trace id: d522fd1b-8edf-11ec-909d-002590870b87
+2022-02-15 20:20:54,635 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:20:58,468 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:20:58,476 - basicLogger - INFO - Last timestamp 2022-02-15 20:20:54
+2022-02-15 20:21:00,537 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:21:02,610 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:21:02,612 - basicLogger - DEBUG - Populate stats trace id: d9e46f3c-8edf-11ec-b189-002590870b87
+2022-02-15 20:21:02,613 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:28:40,094 - basicLogger - INFO - Get stats event started
+2022-02-15 20:28:40,102 - basicLogger - DEBUG - Last statistic {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null', 'last_updated': datetime.datetime(2022, 2, 15, 20, 21, 2)}
+2022-02-15 20:28:40,104 - basicLogger - INFO - Get stats event succefully executed
+2022-02-15 20:29:49,929 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:29:49,939 - basicLogger - INFO - Last timestamp 2022-02-15 20:21:02
+2022-02-15 20:29:52,035 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:29:54,076 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-15 20:29:54,077 - basicLogger - DEBUG - Populate stats trace id: 16aba1b6-8ee1-11ec-a2d8-002590870b87
+2022-02-15 20:29:54,078 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:29:54,943 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:29:54,949 - basicLogger - INFO - Last timestamp 2022-02-15 20:29:54
+2022-02-15 20:29:57,022 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:29:59,084 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-15 20:29:59,085 - basicLogger - DEBUG - Populate stats trace id: 19a799de-8ee1-11ec-b68c-002590870b87
+2022-02-15 20:29:59,086 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Volunteer', 'least_desp_employer': 'Amazon'}
+2022-02-15 20:29:59,937 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:29:59,949 - basicLogger - INFO - Last timestamp 2022-02-15 20:29:59
+2022-02-15 20:30:02,007 - basicLogger - INFO - Resume request retrieved 10 events.
+2022-02-15 20:30:04,079 - basicLogger - INFO - Job request retrieved 20 events.
+2022-02-15 20:30:04,080 - basicLogger - DEBUG - Populate stats trace id: 1ca20602-8ee1-11ec-81bc-002590870b87
+2022-02-15 20:30:04,082 - basicLogger - DEBUG - Event Statistics: {'num_employees': 10, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:30:04,933 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:04,940 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:04
+2022-02-15 20:30:07,012 - basicLogger - INFO - Resume request retrieved 10 events.
+2022-02-15 20:30:09,079 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-15 20:30:09,082 - basicLogger - DEBUG - Populate stats trace id: 1f9d2e70-8ee1-11ec-80a4-002590870b87
+2022-02-15 20:30:09,086 - basicLogger - DEBUG - Event Statistics: {'num_employees': 10, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'BWM'}
+2022-02-15 20:30:09,938 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:09,942 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:09
+2022-02-15 20:30:11,986 - basicLogger - INFO - Resume request retrieved 10 events.
+2022-02-15 20:30:14,041 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-15 20:30:14,042 - basicLogger - DEBUG - Populate stats trace id: 229212f6-8ee1-11ec-923b-002590870b87
+2022-02-15 20:30:14,044 - basicLogger - DEBUG - Event Statistics: {'num_employees': 10, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'Volunteer', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:30:14,932 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:14,935 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:14
+2022-02-15 20:30:16,983 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:30:19,022 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-15 20:30:19,022 - basicLogger - DEBUG - Populate stats trace id: 2589f2fc-8ee1-11ec-8aec-002590870b87
+2022-02-15 20:30:19,023 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'lichess', 'least_desp_employer': 'BWM'}
+2022-02-15 20:30:19,936 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:19,938 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:19
+2022-02-15 20:30:21,985 - basicLogger - INFO - Resume request retrieved 1 events.
+2022-02-15 20:30:24,065 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-15 20:30:24,067 - basicLogger - DEBUG - Populate stats trace id: 288bba03-8ee1-11ec-b539-002590870b87
+2022-02-15 20:30:24,071 - basicLogger - DEBUG - Event Statistics: {'num_employees': 1, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'Volunteer', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:30:24,940 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:24,945 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:24
+2022-02-15 20:30:27,008 - basicLogger - INFO - Resume request retrieved 10 events.
+2022-02-15 20:30:29,109 - basicLogger - INFO - Job request retrieved 20 events.
+2022-02-15 20:30:29,112 - basicLogger - DEBUG - Populate stats trace id: 2b8d7cbd-8ee1-11ec-8d91-002590870b87
+2022-02-15 20:30:29,113 - basicLogger - DEBUG - Event Statistics: {'num_employees': 10, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-15 20:30:29,927 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:29,930 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:29
+2022-02-15 20:30:31,976 - basicLogger - INFO - Resume request retrieved 10 events.
+2022-02-15 20:30:34,034 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:30:34,035 - basicLogger - DEBUG - Populate stats trace id: 2e7cba44-8ee1-11ec-977e-002590870b87
+2022-02-15 20:30:34,037 - basicLogger - DEBUG - Event Statistics: {'num_employees': 10, 'popular_field': 'Web', 'unpopular_field': 'CIT', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:30:34,930 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:34,940 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:34
+2022-02-15 20:30:37,002 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:30:39,072 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:30:39,074 - basicLogger - DEBUG - Populate stats trace id: 317da247-8ee1-11ec-9b35-002590870b87
+2022-02-15 20:30:39,077 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:30:39,943 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:39,948 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:39
+2022-02-15 20:30:41,998 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:30:44,061 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:30:44,063 - basicLogger - DEBUG - Populate stats trace id: 3476dac8-8ee1-11ec-bd12-002590870b87
+2022-02-15 20:30:44,066 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:30:44,942 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:44,946 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:44
+2022-02-15 20:30:47,006 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:30:49,083 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:30:49,085 - basicLogger - DEBUG - Populate stats trace id: 37752bb7-8ee1-11ec-babc-002590870b87
+2022-02-15 20:30:49,088 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:30:49,938 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:49,949 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:49
+2022-02-15 20:30:52,011 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:30:54,051 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:30:54,052 - basicLogger - DEBUG - Populate stats trace id: 3a6b0d50-8ee1-11ec-8565-002590870b87
+2022-02-15 20:30:54,054 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:30:54,936 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:54,940 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:54
+2022-02-15 20:30:56,997 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:30:59,063 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:30:59,065 - basicLogger - DEBUG - Populate stats trace id: 3d6811d0-8ee1-11ec-a16a-002590870b87
+2022-02-15 20:30:59,068 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:30:59,936 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:30:59,939 - basicLogger - INFO - Last timestamp 2022-02-15 20:30:59
+2022-02-15 20:31:01,986 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:31:04,043 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:31:04,044 - basicLogger - DEBUG - Populate stats trace id: 405fbb03-8ee1-11ec-accb-002590870b87
+2022-02-15 20:31:04,044 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-15 20:31:04,945 - basicLogger - INFO - Start Periodic Processing
+2022-02-15 20:31:04,954 - basicLogger - INFO - Last timestamp 2022-02-15 20:31:04
+2022-02-15 20:31:07,011 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-15 20:31:09,086 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-15 20:31:09,088 - basicLogger - DEBUG - Populate stats trace id: 43615f35-8ee1-11ec-adde-002590870b87
+2022-02-15 20:31:09,091 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-02-16 19:04:32,943 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:04:32,962 - basicLogger - INFO - Stats database is empty
+2022-02-16 19:04:35,272 - basicLogger - INFO - Resume request retrieved 20 events.
+2022-02-16 19:04:37,578 - basicLogger - INFO - Job request retrieved 30 events.
+2022-02-16 19:04:37,579 - basicLogger - DEBUG - Populate stats trace id: 5769cd82-8f9e-11ec-b7b4-002590870b87
+2022-02-16 19:04:37,580 - basicLogger - DEBUG - Event Statistics: {'num_employees': 20, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-16 19:04:37,959 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:04:37,963 - basicLogger - INFO - Last timestamp 2022-02-16 19:04:37
+2022-02-16 19:04:40,248 - basicLogger - INFO - Resume request retrieved 8 events.
+2022-02-16 19:04:42,528 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-16 19:04:42,528 - basicLogger - DEBUG - Populate stats trace id: 5a5cf5c6-8f9e-11ec-80dc-002590870b87
+2022-02-16 19:04:42,529 - basicLogger - DEBUG - Event Statistics: {'num_employees': 8, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'Volunteer', 'least_desp_employer': 'Alpha'}
+2022-02-16 19:04:42,946 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:04:42,952 - basicLogger - INFO - Last timestamp 2022-02-16 19:04:42
+2022-02-16 19:04:45,243 - basicLogger - INFO - Resume request retrieved 4 events.
+2022-02-16 19:04:47,525 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-16 19:04:47,527 - basicLogger - DEBUG - Populate stats trace id: 5d57a1f8-8f9e-11ec-9e86-002590870b87
+2022-02-16 19:04:47,529 - basicLogger - DEBUG - Event Statistics: {'num_employees': 4, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'BWM'}
+2022-02-16 19:04:47,954 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:04:47,966 - basicLogger - INFO - Last timestamp 2022-02-16 19:04:47
+2022-02-16 19:04:50,241 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-16 19:04:52,528 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-16 19:04:52,530 - basicLogger - DEBUG - Populate stats trace id: 605322cb-8f9e-11ec-90d5-002590870b87
+2022-02-16 19:04:52,532 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Volunteer', 'least_desp_employer': 'Alpha'}
+2022-02-16 19:04:52,956 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:04:52,960 - basicLogger - INFO - Last timestamp 2022-02-16 19:04:52
+2022-02-16 19:04:55,236 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-16 19:04:57,510 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-16 19:04:57,511 - basicLogger - DEBUG - Populate stats trace id: 634b15b3-8f9e-11ec-81ea-002590870b87
+2022-02-16 19:04:57,511 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'lichess', 'least_desp_employer': 'BWM'}
+2022-02-16 19:04:57,960 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:04:57,963 - basicLogger - INFO - Last timestamp 2022-02-16 19:04:57
+2022-02-16 19:05:00,306 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-16 19:05:02,593 - basicLogger - INFO - Job request retrieved 10 events.
+2022-02-16 19:05:02,595 - basicLogger - DEBUG - Populate stats trace id: 6652d1bf-8f9e-11ec-bf26-002590870b87
+2022-02-16 19:05:02,598 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Volunteer', 'least_desp_employer': 'Alpha'}
+2022-02-16 19:05:02,951 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:05:02,956 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:02
+2022-02-16 19:05:05,228 - basicLogger - INFO - Resume request retrieved 4 events.
+2022-02-16 19:05:07,484 - basicLogger - INFO - Job request retrieved 14 events.
+2022-02-16 19:05:07,485 - basicLogger - DEBUG - Populate stats trace id: 693d0460-8f9e-11ec-86f8-002590870b87
+2022-02-16 19:05:07,487 - basicLogger - DEBUG - Event Statistics: {'num_employees': 4, 'popular_field': 'Web', 'unpopular_field': 'API', 'desp_employer': 'lichess', 'least_desp_employer': 'Alpha'}
+2022-02-16 19:05:07,957 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:05:07,962 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:07
+2022-02-16 19:05:10,257 - basicLogger - INFO - Resume request retrieved 8 events.
+2022-02-16 19:05:12,534 - basicLogger - INFO - Job request retrieved 6 events.
+2022-02-16 19:05:12,535 - basicLogger - DEBUG - Populate stats trace id: 6c3f8e4d-8f9e-11ec-8b07-002590870b87
+2022-02-16 19:05:12,538 - basicLogger - DEBUG - Event Statistics: {'num_employees': 8, 'popular_field': 'Web', 'unpopular_field': 'CIT', 'desp_employer': 'lichess', 'least_desp_employer': 'Baiduu'}
+2022-02-16 19:05:12,955 - basicLogger - INFO - Start Periodic Processing
+2022-02-16 19:05:12,962 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:12
+2022-02-16 19:05:15,250 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-02-16 19:05:17,561 - basicLogger - INFO - Job request retrieved 0 events.
+2022-02-16 19:05:17,562 - basicLogger - DEBUG - Populate stats trace id: 6f3ea36d-8f9e-11ec-9e01-002590870b87
+2022-02-16 19:05:17,563 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
