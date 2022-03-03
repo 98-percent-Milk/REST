@@ -31,10 +31,11 @@ class JobDescription(Base):
         temp = dict()
         temp["id"] = self.id
         temp["ad_id"] = self.ad_id
-        temp["trace_id"] = self.trace_id
         temp["date_created"] = self.date_created
+        temp["description"] = self.description
         temp["employer"] = self.employer
         temp["field"] = self.field
         temp["position"] = self.position
+        temp["trace_id"] = self.trace_id
 
         return temp

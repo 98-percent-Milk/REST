@@ -125,8 +125,9 @@ components:
           type: string
           example: "Developer, Tester, Backend"
         experience:
-          type: integer
+          type: string
+          example: "1"
         date_created:
           type: string
           format: date-time
-          example: 2021-10-29T09:12:33.001Z
+          example: "2021-10-29 09:12:33.001"

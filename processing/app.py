@@ -13,6 +13,7 @@ import logging.config
 from uuid import uuid1
 from os.path import join, realpath
 from collections import Counter
+from pprint import pprint
 
 with open(join(realpath("config"), "app_conf.yml"), 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -62,6 +63,7 @@ def populate_stats():
     headers = {"content-type": "application/json"}
     resume_res = requests.get(
         url + "/employee/resume?timestamp=" + timestamp, headers=headers)
+    # pprint(resume_res.json())
     if resume_res.status_code != 200:
         logger.error("Invalid Resume Events Request!!!")
     else:

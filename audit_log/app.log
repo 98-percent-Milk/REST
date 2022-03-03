@@ -5,3 +5,5 @@
 2022-02-23 23:21:55,430 - basicLogger - INFO - Retrieving BP at index 2
 2022-02-23 23:24:44,788 - basicLogger - INFO - Retrieving Job Description at index 0
 2022-02-23 23:24:52,302 - basicLogger - INFO - Retrieving Employee Resume at index 0
+2022-03-02 22:43:38,883 - basicLogger - INFO - Retrieving Employee Resume at index 2
+2022-03-02 22:44:08,146 - basicLogger - INFO - Retrieving Job Description at index 1

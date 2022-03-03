@@ -309,3 +309,137 @@
 2022-02-16 19:05:17,561 - basicLogger - INFO - Job request retrieved 0 events.
 2022-02-16 19:05:17,562 - basicLogger - DEBUG - Populate stats trace id: 6f3ea36d-8f9e-11ec-9e01-002590870b87
 2022-02-16 19:05:17,563 - basicLogger - DEBUG - Event Statistics: {'num_employees': 0, 'popular_field': 'Null', 'unpopular_field': 'Null', 'desp_employer': 'Null', 'least_desp_employer': 'Null'}
+2022-03-02 21:04:14,992 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:04:15,034 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:04:18,298 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:04:20,654 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:04:20,656 - basicLogger - DEBUG - Populate stats trace id: 62a4d02e-9aaf-11ec-a851-002590870b87
+2022-03-02 21:04:24,988 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:04:24,993 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:04:27,287 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:04:29,583 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:04:29,586 - basicLogger - DEBUG - Populate stats trace id: 67f75c60-9aaf-11ec-9090-002590870b87
+2022-03-02 21:04:29,990 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:04:29,998 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:04:32,306 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:04:34,584 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:04:34,586 - basicLogger - DEBUG - Populate stats trace id: 6af24a51-9aaf-11ec-a04b-002590870b87
+2022-03-02 21:42:49,475 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:42:49,506 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:42:52,825 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:42:55,231 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:42:55,233 - basicLogger - DEBUG - Populate stats trace id: c63d3925-9ab4-11ec-9b0d-002590870b87
+2022-03-02 21:44:49,140 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:44:49,156 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:44:51,506 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:44:53,915 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:44:53,918 - basicLogger - DEBUG - Populate stats trace id: 0cfb2186-9ab5-11ec-83be-002590870b87
+2022-03-02 21:44:54,143 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:44:54,153 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:44:56,463 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:44:58,886 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:44:58,886 - basicLogger - DEBUG - Populate stats trace id: 0ff11c08-9ab5-11ec-85ed-002590870b87
+2022-03-02 21:46:06,497 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:46:06,504 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:46:08,814 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:46:11,245 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:46:11,247 - basicLogger - DEBUG - Populate stats trace id: 3b12904d-9ab5-11ec-856c-002590870b87
+2022-03-02 21:48:47,613 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:48:47,644 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:48:49,964 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:48:52,320 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:48:52,322 - basicLogger - DEBUG - Populate stats trace id: 9b14acbc-9ab5-11ec-ba99-002590870b87
+2022-03-02 21:54:14,217 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:54:14,227 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:54:35,698 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:54:39,653 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:54:39,656 - basicLogger - DEBUG - Populate stats trace id: 6a1b950a-9ab6-11ec-ab86-002590870b87
+2022-03-02 21:57:32,045 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 21:57:32,057 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 21:57:34,374 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:57:36,761 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 21:57:36,762 - basicLogger - DEBUG - Populate stats trace id: d3abec69-9ab6-11ec-ba5a-002590870b87
+2022-03-02 22:00:39,868 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:00:39,886 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 22:00:42,224 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 22:00:44,650 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 22:00:44,652 - basicLogger - DEBUG - Populate stats trace id: 43a98fe9-9ab7-11ec-abb1-002590870b87
+2022-03-02 22:01:16,401 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:01:16,417 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 22:01:18,732 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 22:01:21,120 - basicLogger - ERROR - Invalid Resume Events Request!!!
+2022-03-02 22:01:21,122 - basicLogger - DEBUG - Populate stats trace id: 596681cb-9ab7-11ec-a473-002590870b87
+2022-03-02 22:40:04,205 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:40:04,234 - basicLogger - INFO - Last timestamp 2022-02-16 19:05:17
+2022-03-02 22:40:06,672 - basicLogger - INFO - Resume request retrieved 114 events.
+2022-03-02 22:40:09,117 - basicLogger - INFO - Job request retrieved 120 events.
+2022-03-02 22:40:09,121 - basicLogger - DEBUG - Populate stats trace id: c4fef3f9-9abc-11ec-b241-002590870b87
+2022-03-02 22:40:09,125 - basicLogger - DEBUG - Event Statistics: {'num_employees': 114, 'popular_field': '9', 'unpopular_field': "'API'", 'desp_employer': "'lichess'", 'least_desp_employer': "'Alpha'"}
+2022-03-02 22:40:09,216 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:40:09,224 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:40:11,521 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:40:13,816 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:40:13,818 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:40:14,218 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:40:14,226 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:40:16,538 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:40:18,831 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:40:18,832 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:40:19,217 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:40:19,225 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:40:21,517 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:40:23,787 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:40:23,789 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:41:55,767 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:41:55,774 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:41:58,050 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:42:00,338 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:42:00,339 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:42:00,786 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:42:00,791 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:42:03,072 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:42:05,350 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:42:05,351 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:42:05,777 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:42:05,782 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:42:08,077 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:42:10,374 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:42:10,376 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:42:10,781 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:42:10,789 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:42:13,099 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:42:15,387 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:42:15,388 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:42:15,779 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:42:15,784 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:42:18,023 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:42:20,302 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:42:20,303 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:42:20,777 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:42:20,781 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:42:23,057 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:42:25,326 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:42:25,326 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:42:25,774 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:42:25,778 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:42:28,047 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:42:30,371 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:42:30,372 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:42:53,532 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:42:53,556 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:42:56,086 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:42:58,380 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:42:58,380 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:42:58,546 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:42:58,550 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:43:00,928 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:43:01,968 - basicLogger - INFO - Get stats event started
+2022-03-02 22:43:01,977 - basicLogger - DEBUG - Last statistic {'num_employees': 114, 'popular_field': '9', 'unpopular_field': "'API'", 'desp_employer': "'lichess'", 'least_desp_employer': "'Alpha'", 'last_updated': datetime.datetime(2022, 3, 2, 22, 40, 9)}
+2022-03-02 22:43:01,979 - basicLogger - INFO - Get stats event succefully executed
+2022-03-02 22:43:03,191 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:43:03,192 - basicLogger - INFO - No new events retrieved from GET requests.
+2022-03-02 22:43:03,543 - basicLogger - INFO - Start Periodic Processing
+2022-03-02 22:43:03,553 - basicLogger - INFO - Last timestamp 2022-03-02 22:40:09
+2022-03-02 22:43:05,838 - basicLogger - INFO - Resume request retrieved 0 events.
+2022-03-02 22:43:08,132 - basicLogger - INFO - Job request retrieved 0 events.
+2022-03-02 22:43:08,132 - basicLogger - INFO - No new events retrieved from GET requests.

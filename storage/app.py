@@ -16,6 +16,7 @@ import logging.config
 import mysql.connector
 import pymysql
 import yaml
+from pprint import pprint
 
 with open(join(realpath("config"), 'app_conf.yml'), 'r') as f:
     app_config = yaml.safe_load(f.read())

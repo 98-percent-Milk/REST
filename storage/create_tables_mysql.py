@@ -34,7 +34,7 @@ db_cursor.execute("""
          resume_id VARCHAR(250) NOT NULL,
          trace_id VARCHAR(250) NOT NULL,
          date_created VARCHAR(100) NOT NULL,
-         experience INTEGER NOT NULL,
+         experience VARCHAR(10) NOT NULL,
          field VARCHAR(100) NOT NULL,
          position VARCHAR(100) NOT NULL,
          CONSTRAINT employee_resume_pk PRIMARY KEY (id))
