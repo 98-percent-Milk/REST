@@ -34,4 +34,5 @@ services:
     depends_on:
       - storage
 
-networks: host
+networks:
+  - host
