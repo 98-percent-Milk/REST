@@ -3,8 +3,7 @@ version: '3.3'
 services:
   storage:
     container_name: storage
-    build:
-      dockerfile: ../storage
+    image: storage
     hostname: storage
     ports:
       - target: 8090
@@ -15,8 +14,7 @@ services:
       - kafka
   receiver:
     container_name: receiver
-    build:
-      dockerfile: ../receiver
+    image: receiver
     hostname: receiver
     ports:
       - target: 8080
@@ -27,21 +25,14 @@ services:
       - kafka
   processing:
     container_name: processing
-    build:
-      dockerfile: ../processing
-      network: "host"
+    image: processing
+    network_mode: "host"
     hostname: processing
-    ports:
-      - target: 8100
-        published: 8100
-        protocol: tcp
-        mode: host
     depends_on:
       - storage
   audit_log:
     container_name: audit_log
-    build:
-      dockerfile: ../audit_log
+    image: audit_log
     hostname: audit
     ports:
       - target: 8110
