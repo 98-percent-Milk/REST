@@ -33,3 +33,5 @@ services:
       - "8110:8110"
     depends_on:
       - storage
+
+networks: host
