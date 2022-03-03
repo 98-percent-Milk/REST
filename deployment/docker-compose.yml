@@ -21,8 +21,7 @@ services:
     hostname: processing
     ports:
       - "8100:8100"
-    networks:
-      - host
+    network_mode: host
     depends_on:
       - storage
   audit_log:
@@ -33,6 +32,3 @@ services:
       - "8110:8110"
     depends_on:
       - storage
-
-networks:
-  - host
