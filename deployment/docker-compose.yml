@@ -1,34 +1,47 @@
-version: "3"
+version: "6.1"
 
 services:
   storage:
-    image: storage:latest
     container_name: storage
+    build:
+      context: ../
+      dockerfile: ../storage
     hostname: storage
     ports:
       - "8090:8090"
+    depends_on:
+      - kafka
   receiver:
-    image: receiver:latest
     container_name: receiver
+    build:
+      context: ../
+      dockerfile: ../receiver
     hostname: receiver
     ports:
       - "8080:8080"
     depends_on:
       - storage
+      - kafka
   processing:
-    image: processing:latest
     container_name: processing
+    build:
+      context: ../
+      dockerfile: ../processing
+      network: "host"
     hostname: processing
     ports:
       - "8100:8100"
-    network: host
     depends_on:
       - storage
+      - kafka
   audit_log:
-    image: audit_log:latest
     container_name: audit_log
+    build:
+      context: ../
+      dockerfile: ../audit_log
     hostname: audit
     ports:
       - "8110:8110"
     depends_on:
       - storage
+      - kafka
