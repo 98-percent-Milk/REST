@@ -9,8 +9,6 @@ services:
     hostname: storage
     ports:
       - "8090:8090"
-    depends_on:
-      - wurstmeister/kafka
   receiver:
     container_name: receiver
     build:
@@ -21,7 +19,6 @@ services:
       - "8080:8080"
     depends_on:
       - storage
-      - wurstmeister/kafka
   processing:
     container_name: processing
     build:
@@ -33,7 +30,6 @@ services:
       - "8100:8100"
     depends_on:
       - storage
-      - wurstmeister/kafka
   audit_log:
     container_name: audit_log
     build:
@@ -44,4 +40,3 @@ services:
       - "8110:8110"
     depends_on:
       - storage
-      - wurstmeister/kafka
