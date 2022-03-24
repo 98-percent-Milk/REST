@@ -59,7 +59,7 @@ def populate_stats():
     except IndexError:
         logger.info("Stats database is empty")
         last_updated = "2021-10-29 09:12:33"
-    current_timestamp = datetime.now().replace(microsecond=0)
+    current_timestamp = str(datetime.now().replace(microsecond=0))
 
     headers = {"content-type": "application/json"}
     resume_res = requests.get(
