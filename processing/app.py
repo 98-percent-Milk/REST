@@ -6,6 +6,7 @@ from sqlalchemy.orm import sessionmaker
 from base import Base
 from stats import Stats
 from apscheduler.schedulers.background import BackgroundScheduler
+from flask_cors import CORS, cross_origin
 import requests
 import yaml
 import logging
@@ -13,7 +14,6 @@ import logging.config
 from uuid import uuid1
 from os.path import join, realpath
 from collections import Counter
-from pprint import pprint
 
 with open(join(realpath("config"), "app_conf.yml"), 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -63,7 +63,6 @@ def populate_stats():
     headers = {"content-type": "application/json"}
     resume_res = requests.get(
         url + "/employee/resume?timestamp=" + timestamp, headers=headers)
-    # pprint(resume_res.json())
     if resume_res.status_code != 200:
         logger.error("Invalid Resume Events Request!!!")
     else:
@@ -116,6 +115,8 @@ def init_scheduler():
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS']='Content-Type'
 app.add_api(join(realpath("config"), 'openapi.yaml'),
             strict_validation=True, validate_responses=True)
 

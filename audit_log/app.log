@@ -7,3 +7,5 @@
 2022-02-23 23:24:52,302 - basicLogger - INFO - Retrieving Employee Resume at index 0
 2022-03-02 22:43:38,883 - basicLogger - INFO - Retrieving Employee Resume at index 2
 2022-03-02 22:44:08,146 - basicLogger - INFO - Retrieving Job Description at index 1
+2022-03-23 17:14:18,445 - basicLogger - INFO - Retrieving Employee Resume at index 100
+2022-03-23 17:14:19,451 - basicLogger - ERROR - Could not find Employee Resume at index 100

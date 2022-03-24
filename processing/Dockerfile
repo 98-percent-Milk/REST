@@ -1,18 +1,19 @@
-FROM ubuntu:18.04
-LABEL maintainer="mjantsan@bcit.ca"
+FROM ubuntu:18.04 
 
-RUN apt-get update -y && apt-get install -y python3 python3-pip
+LABEL maintainer="mjantsan@bcit.ca" 
 
-COPY ./requirements.txt /app/requirements.txt
+RUN apt-get update -y && \ 
+    apt-get install -y python3 python3-pip 
 
-WORKDIR /app
+# We copy just the requirements.txt first to leverage Docker cache 
+COPY ./requirements.txt /app/requirements.txt 
 
-RUN pip3 install -r requirements.txt
+WORKDIR /app 
 
-COPY . /app
+RUN pip3 install -r requirements.txt 
 
-EXPOSE 9070
+COPY . /app 
 
-ENTRYPOINT [ "python3" ]
+ENTRYPOINT [ "python3" ] 
 
-CMD ["app.py"]
+CMD [ "app.py" ] 

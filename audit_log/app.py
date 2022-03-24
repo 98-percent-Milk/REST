@@ -2,6 +2,7 @@ import connexion
 from connexion import NoContent
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
+from flask_cors import CORS, cross_origin
 import logging
 import logging.config
 import yaml
@@ -89,6 +90,8 @@ def get_emp_resume(index):
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS']='Content-Type'
 app.add_api(join(realpath("config"), 'openapi.yaml'),
             strict_validation=True, validate_responses=True)
 
