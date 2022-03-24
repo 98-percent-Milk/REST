@@ -30,6 +30,7 @@ with open(join(realpath("config"), "app_conf.yml"), 'r') as f:
             client = KafkaClient(
                 hosts=f"{hostname}:{port}")
             topic = client.topics[str.encode(app_config["events"]["topic"])]
+            break
         except:
             logger.error("Attempt to create Kafka connection failed")
             sleep(app_config['service']['sleep_time'])

@@ -49,6 +49,7 @@ def process_messages():
             logger.info(f"Trying to connect to Kafka. Current try: {count}")
             client = KafkaClient(hosts=h_name)
             topic = client.topics[str.encode(app_config["events"]["topic"])]
+            break
         except:
             logger.error(f"Attemp to create Kafka connection failed.")
             sleep(app_config['service']['sleep_time'])
