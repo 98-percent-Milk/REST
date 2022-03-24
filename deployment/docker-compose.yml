@@ -45,6 +45,7 @@ services:
     image: dashboard
     ports:
       - "3000:3000"
+    hostname: dashboard
     depends_on:
       - "processing"
       - "audit_log"
@@ -53,6 +54,7 @@ services:
     ports:
       - "2181"
     hostname: zookeeper
+    volumes: -/home/azureuser@ACIT3855/zookeeper/data:/opt/zookeeper-3.4.13/data
   kafka:
     image: wurstmeister/kafka
     command: [ start-kafka.sh ]
@@ -67,8 +69,11 @@ services:
       KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://restapi.eastus2.cloudapp.azure.com:9092
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LOG_DIRS: /kafka/kafka-logs
+      KAFKA_BROKER_ID: 1
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - /home/azureuser@ACIT3855/kafka:/kafka.kafka-logs
     depends_on:
       - "zookeeper"
   db:
