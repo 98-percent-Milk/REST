@@ -52,17 +52,18 @@ def populate_stats():
     results = session.query(Stats).order_by(Stats.last_updated.desc()).first()
     new_stats = {}
     try:
-        timestamp = str(results.last_updated)
-        logger.info(f"Last timestamp {timestamp}")
+        last_updated = str(results.last_updated)
+        logger.info(f"Last timestamp {last_updated}")
     except KeyError:
         print("KEY ERROR! Invalid key input")
     except IndexError:
         logger.info("Stats database is empty")
-        timestamp = "2021-10-29 09:12:33"
+        last_updated = "2021-10-29 09:12:33"
+    current_timestamp = datetime.now().replace(microsecond=0)
 
     headers = {"content-type": "application/json"}
     resume_res = requests.get(
-        url + "/employee/resume?timestamp=" + timestamp, headers=headers)
+        url + "/employee/resume?start_timestamp=" + last_updated + "&end_timestamp=" + current_timestamp, headers=headers)
     if resume_res.status_code != 200:
         logger.error("Invalid Resume Events Request!!!")
     else:
@@ -72,7 +73,7 @@ def populate_stats():
             f"Resume request retrieved {len(resume_res.json())} events.")
 
     job_res = requests.get(
-        url + "/work/ad_description?timestamp=" + timestamp, headers=headers
+        url + "/work/ad_description?start_timestamp=" + last_updated + "&end_timestamp=" + current_timestamp, headers=headers
     )
     if job_res.status_code != 200:
         logger.error("Invalid Resume Events Request!!!")
@@ -116,7 +117,7 @@ def init_scheduler():
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 CORS(app.app)
-app.app.config['CORS_HEADERS']='Content-Type'
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 app.add_api(join(realpath("config"), 'openapi.yaml'),
             strict_validation=True, validate_responses=True)
 

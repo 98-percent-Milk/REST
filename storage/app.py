@@ -1,6 +1,12 @@
+from pprint import pprint
+import yaml
+import pymysql
+import mysql.connector
+import logging.config
+import logging
 import connexion
 from connexion import NoContent
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, and_
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 from base import Base
@@ -10,13 +16,8 @@ from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
 from os.path import realpath, join
-from json import loads, dumps
-import logging
-import logging.config
-import mysql.connector
-import pymysql
-import yaml
-from pprint import pprint
+from json import loads
+from time import sleep
 
 with open(join(realpath("config"), 'app_conf.yml'), 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -42,9 +43,16 @@ def process_messages():
     """ Process event messages """
     session = DB_SESSION()
     h_name = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
-    client = KafkaClient(hosts=h_name)
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
-
+    count = 1
+    while count < app_config['service']['max_tries']:
+        try:
+            logger.info(f"Trying to connect to Kafka. Current try: {count}")
+            client = KafkaClient(hosts=h_name)
+            topic = client.topics[str.encode(app_config["events"]["topic"])]
+        except:
+            logger.error(f"Attemp to create Kafka connection failed.")
+            sleep(app_config['service']['sleep_time'])
+            count += 1
     consumer = topic.get_simple_consumer(consumer_group=b'event group',
                                          reset_offset_on_start=False,
                                          auto_offset_reset=OffsetType.LATEST)
@@ -80,34 +88,43 @@ def process_messages():
 
 
 # Storage system GET method_1
-def get_advertisement_description(timestamp):
+def get_advertisement_description(start_timestamp, end_timestamp):
     """ Retrieve all the Job Description advertisement that are stored after certain timestamp"""
     logger.info(f"Hostname: {hostname}, port: {port}")
     session = DB_SESSION()
-    timestamp_datetime = datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S")
-    readings = session.query(JobDescription).filter(
-        JobDescription.date_created >= timestamp_datetime)
+    start_timestamp_datetime = datetime.strptime(
+        start_timestamp, "%Y-%m-%d %H:%M:%S")
+    end_timestamp_datetime = datetime.strptime(
+        end_timestamp, "%Y-%m-%d %H:%M:%S")
+
+    readings = session.query(JobDescription).filter(and_(
+        JobDescription.date_created >= start_timestamp_datetime,
+        JobDescription.date_created < end_timestamp_datetime))
     results_list = [reading.to_dict() for reading in readings]
     session.close()
 
     logger.info(
-        f"Query for Job advertisement description after {timestamp} returns {len(results_list)} results.")
+        f"Query for Job advertisement description after {start_timestamp} and before {end_timestamp} returns {len(results_list)} results.")
 
     return results_list, 200
 
 
 # Storage system GET method_2
-def get_emp_resume(timestamp):
+def get_emp_resume(start_timestamp, end_timestamp):
     """ Retrieve all the Employee Resume that are stored after certain timestamp """
     logger.info(f"Hostname: {hostname}, port: {port}")
     session = DB_SESSION()
-    timestamp_datetime = datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S")
-    readings = session.query(EmployeeResume).filter(
-        EmployeeResume.date_created >= timestamp_datetime)
+    start_timestamp_datetime = datetime.strptime(
+        start_timestamp, "%Y-%m-%d %H:%M:%S")
+    end_timestamp_datetime = datetime.strptime(
+        end_timestamp, "%Y-%m-%d %H:%M:%S")
+    readings = session.query(EmployeeResume).filter(and_(
+        EmployeeResume.date_created >= start_timestamp_datetime,
+        EmployeeResume.date_created < end_timestamp_datetime))
     results_list = [reading.to_dict() for reading in readings]
     session.close()
     logger.info(
-        f"Query for employee resume after {timestamp} returns {len(results_list)} results.")
+        f"Query for employee resume after {start_timestamp} and before {end_timestamp} returns {len(results_list)} results.")
     return results_list, 200
 
 

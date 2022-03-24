@@ -23,13 +23,20 @@ paths:
         operationId: app.get_advertisement_description
         description: Gets a job advertisement description after timestamp
         parameters:
-          - name: timestamp
+          - name: start_timestamp
             in: query
-            description: Limits the number of items on a page
+            description: Limits the number of items on a page by greater or equal
             schema:
               type: string
               format: date-time
               example: "2021-10-29 09:12:33"
+          - name: end_timestamp
+            in: query
+            description: Limits the number of items on a page by less than
+            schema:
+              type: string
+              format: date-time
+              example: "2021-11-1 01:02:03"
         responses:
           '200':
             description: Succesfully returned job advertisement description

@@ -9,3 +9,6 @@ events:
   hostname: restapi.eastus2.cloudapp.azure.com
   port: 9092
   topic: events
+service:
+  max_tries: 11
+  sleep_time: 3
