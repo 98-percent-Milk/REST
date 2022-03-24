@@ -55,7 +55,7 @@ services:
       - "2181"
     hostname: zookeeper
     volumes:
-      - /home/azureuser@ACIT3855/zookeeper/data:/opt/zookeeper-3.4.13/data
+      - /home/azureuser/zookeeper/data:/opt/zookeeper-3.4.13/data
   kafka:
     image: wurstmeister/kafka
     command: [ start-kafka.sh ]
@@ -74,7 +74,7 @@ services:
       KAFKA_BROKER_ID: 1
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /home/azureuser@ACIT3855/kafka:/kafka/kafka-logs
+      - /home/azureuser/kafka:/kafka/kafka-logs
     depends_on:
       - "zookeeper"
   db:
