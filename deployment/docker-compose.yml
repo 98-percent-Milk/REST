@@ -13,9 +13,7 @@ services:
       - kafka
 
   receiver:
-    container_name: receiver
     image: receiver
-    hostname: receiver
     ports:
       - "8080"
     networks:
