@@ -47,6 +47,8 @@ with open(app_conf_file, 'r') as f:
 logger.info(f"App Conf File: {app_conf_file}")
 logger.info(f"App Log File: {log_conf_file}")
 
+
+
 DB_ENGINE = create_engine(
     f"mysql+pymysql://{user}:{password}@{hostname}:{port}/{db}")
 Base.metadata.bind = DB_ENGINE

@@ -10,16 +10,29 @@ from os.path import realpath, join
 from os import environ
 from json import loads, dumps
 
-with open(join(realpath("config"), "log_conf.yml"), 'r') as f:
+if "TARGET_ENV" in environ and environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
+with open(log_conf_file, 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
     logger = logging.getLogger('basicLogger')
 
-with open(join(realpath("config"), 'app_conf.yml'), 'r') as f:
+
+with open(app_conf_file, 'r') as f:
     app_config = yaml.safe_load(f.read())
     hostname = f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}'
     client = KafkaClient(hosts=hostname)
     topic = client.topics[str.encode(app_config["events"]["topic"])]
+
+logger.info(f"App Conf File: {app_conf_file}")
+logger.info(f"App Log File: {log_conf_file}")
 
 
 def get_job_description(index):

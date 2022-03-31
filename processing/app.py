@@ -16,16 +16,29 @@ from os.path import join, realpath
 from os import environ
 from collections import Counter
 
-with open(join(realpath("config"), "app_conf.yml"), 'r') as f:
+if "TARGET_ENV" in environ and environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
+with open(log_conf_file, 'r') as f:
+    log_config = yaml.safe_load(f.read())
+    logging.config.dictConfig(log_config)
+    logger = logging.getLogger('basicLogger')
+
+
+with open(app_conf_file, 'r') as f:
     app_config = yaml.safe_load(f.read())
     url = app_config['eventstore']['url']
     period_sec = app_config['scheduler']['period_sec']
     filename = app_config['datastore']["filename"]
 
-with open(join(realpath("config"), "log_conf.yml"), 'r') as f:
-    log_config = yaml.safe_load(f.read())
-    logging.config.dictConfig(log_config)
-    logger = logging.getLogger('basicLogger')
+logger.info(f"App Conf File: {app_conf_file}")
+logger.info(f"App Log File: {log_conf_file}")
 
 DB_ENGINE = create_engine(f"sqlite:///{filename}")
 Base.metadata.bind = DB_ENGINE
