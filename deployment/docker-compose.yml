@@ -9,6 +9,7 @@ services:
       - TARGET_ENV=test
     volumes:
       - /home/azureuser/config/storage:/config
+      - /home/azureuser/logs:/logs
     ports:
       - "8090"
     networks:
@@ -22,6 +23,7 @@ services:
       - TARGET_ENV=test
     volumes:
       - /home/azureuser/config/receiver:/config
+      - /home/azureuser/logs:/logs
     ports:
       - "8080"
     networks:
@@ -37,6 +39,7 @@ services:
       - TARGET_ENV=test
     volumes:
       - /home/azureuser/config/processing:/config
+      - /home/azureuser/logs:/logs
     depends_on:
       - storage
     ports:
@@ -52,6 +55,7 @@ services:
       - TARGET_ENV=test
     volumes:
       - /home/azureuser/config/audit_log:/config
+      - /home/azureuser/logs:/logs
     ports:
       - "8110"
     networks:
