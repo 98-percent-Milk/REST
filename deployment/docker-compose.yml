@@ -127,5 +127,5 @@ services:
 volumes:
   my-db: # Name of our network
 networks:
-  api.networks:
+  api.network:
     - networkName: nginx
