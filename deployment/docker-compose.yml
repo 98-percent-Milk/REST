@@ -6,9 +6,9 @@ services:
     image: storage
     hostname: storage
     ports:
-      - target: 8090
-        published: 8090
-        protocol: tcp
+      - "8090"
+    networks:
+      - "api.network"
     depends_on:
       - kafka
 
@@ -17,34 +17,40 @@ services:
     image: receiver
     hostname: receiver
     ports:
-      - target: 8080
-        published: 8080
-        protocol: tcp
+      - "8080"
+    networks:
+      - "api.network"
     depends_on:
       - kafka
+
   processing:
     container_name: processing
     image: processing
-    network_mode: "host"
     hostname: processing
     depends_on:
       - storage
+    ports:
+      - "8100"
+    networks:
+      - "api.network"
 
   audit_log:
     container_name: audit_log
     image: audit_log
     hostname: audit
     ports:
-      - target: 8110
-        published: 8110
-        protocol: tcp
+      - "8110"
+    networks:
+      - "api.network"
     depends_on:
       - kafka
 
   dashboard:
     image: dashboard
     ports:
-      - "3000:3000"
+      - "3000"
+    networks:
+      - "api.network"
     hostname: dashboard
     depends_on:
       - "processing"
@@ -77,6 +83,7 @@ services:
       - /home/azureuser/kafka:/kafka/kafka-logs
     depends_on:
       - "zookeeper"
+
   db:
     image: mysql:5.7
     restart: always
@@ -97,6 +104,28 @@ services:
       # Where our data will be persisted 
     volumes:
       - my-db:/var/lib/mysql
-# Names our volume 
+
+  nginx:
+    image: nginx:latest
+    # Connects the conf file of the container to the conf file in our folder
+    volumes:
+      - /home/azureuser/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    # It will start up the nginx only when all apip containers have started
+    depends_on:
+      - "receiver"
+      - "storage"
+      - "processing"
+      - "audit_log"
+      - "dashboard"
+    # Connects the port 80 of the nginx container to localhost:80 or localhost
+    ports:
+      - "80:80"
+    networks:
+      - "api.network"
+
+# Names of our volumes 
 volumes:
-  my-db:
+  my-db: # Name of our network
+networks:
+  api.networks:
+    - networkName: nginx
