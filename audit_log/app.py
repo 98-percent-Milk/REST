@@ -6,7 +6,8 @@ from flask_cors import CORS, cross_origin
 import logging
 import logging.config
 import yaml
-from os.path import realpath, join, environ
+from os.path import realpath, join
+from os import environ
 from json import loads, dumps
 
 with open(join(realpath("config"), "log_conf.yml"), 'r') as f:

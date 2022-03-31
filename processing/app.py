@@ -12,7 +12,8 @@ import yaml
 import logging
 import logging.config
 from uuid import uuid1
-from os.path import join, realpath, environ
+from os.path import join, realpath
+from os import environ
 from collections import Counter
 
 with open(join(realpath("config"), "app_conf.yml"), 'r') as f:
