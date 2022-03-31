@@ -45,7 +45,7 @@ services:
     depends_on:
       - kafka
 
-  dashboard:
+  dashboard-ui:
     image: dashboard
     ports:
       - "3000"
@@ -116,7 +116,7 @@ services:
       - "storage"
       - "processing"
       - "audit_log"
-      - "dashboard"
+      - "dashboard-ui"
     # Connects the port 80 of the nginx container to localhost:80 or localhost
     ports:
       - "80:80"
