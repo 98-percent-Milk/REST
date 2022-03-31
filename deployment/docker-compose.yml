@@ -36,7 +36,7 @@ services:
     environment:
       - TARGET_ENV=test
     volumes:
-      - home/azure/config/processing:/config
+      - home/azureuser/config/processing:/config
     depends_on:
       - storage
     ports:
