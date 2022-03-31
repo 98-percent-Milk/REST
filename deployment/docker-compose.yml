@@ -40,6 +40,7 @@ services:
     volumes:
       - /home/azureuser/config/processing:/config
       - /home/azureuser/logs:/logs
+      - processing-db:/data
     depends_on:
       - storage
     ports:
@@ -144,6 +145,7 @@ services:
 # Names of our volumes 
 volumes:
   my-db:
+  processing-db:
     # Name of our network
 
 networks:
