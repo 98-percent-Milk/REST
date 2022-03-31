@@ -12,7 +12,7 @@ import yaml
 import logging
 import logging.config
 from uuid import uuid1
-from os.path import join, realpath
+from os.path import join, realpath, environ
 from collections import Counter
 
 with open(join(realpath("config"), "app_conf.yml"), 'r') as f:
@@ -116,9 +116,12 @@ def init_scheduler():
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-CORS(app.app)
-app.app.config['CORS_HEADERS'] = 'Content-Type'
-app.add_api(join(realpath("config"), 'openapi.yaml'),
+
+if "TARGET_ENV" not in environ or environ["TARGET_ENV"] != "test":
+    CORS(app.app)
+    app.app.config['CORS_HEADERS'] = 'Content-Type'
+
+app.add_api(join(realpath("config"), 'openapi.yaml'), base_path="/processing",
             strict_validation=True, validate_responses=True)
 
 

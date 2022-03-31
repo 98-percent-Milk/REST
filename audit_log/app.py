@@ -6,7 +6,7 @@ from flask_cors import CORS, cross_origin
 import logging
 import logging.config
 import yaml
-from os.path import realpath, join
+from os.path import realpath, join, environ
 from json import loads, dumps
 
 with open(join(realpath("config"), "log_conf.yml"), 'r') as f:
@@ -90,9 +90,12 @@ def get_emp_resume(index):
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-CORS(app.app)
-app.app.config['CORS_HEADERS']='Content-Type'
-app.add_api(join(realpath("config"), 'openapi.yaml'),
+
+if "TARGET_ENV" not in environ or environ["TARGET_ENV"] != "test":
+    CORS(app.app)
+    app.app.config['CORS_HEADERS'] = 'Content-Type'
+
+app.add_api(join(realpath("config"), 'openapi.yaml'), base_path="/audit_log",
             strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":

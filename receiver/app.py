@@ -63,7 +63,7 @@ def emp_resume(body):
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-app.add_api(join(realpath("config"), 'openapi.yaml'),
+app.add_api(join(realpath("config"), 'openapi.yaml'), base_path="/receiver",
             strict_validation=True, validate_responses=True)
 
 

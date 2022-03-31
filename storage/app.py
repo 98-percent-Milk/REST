@@ -130,7 +130,7 @@ def get_emp_resume(start_timestamp, end_timestamp):
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-app.add_api(join(realpath("config"), 'openapi.yaml'),
+app.add_api(join(realpath("config"), 'openapi.yaml'), base_path="/storage",
             strict_validation=True, validate_responses=True)
 
 
